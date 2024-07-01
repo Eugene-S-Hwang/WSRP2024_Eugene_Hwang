@@ -1,0 +1,44 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[       818,         34]
+NotebookOptionsPosition[       564,         21]
+NotebookOutlinePosition[       961,         37]
+CellTagsIndexPosition[       918,         34]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+},
+WindowSize->{808, 740},
+WindowMargins->{{92, Automatic}, {16, Automatic}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 16, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c0b0795d-5047-4097-a4b7-8759984a9375"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+}
+]
+*)
+
+(* End of internal cache information *)
+
