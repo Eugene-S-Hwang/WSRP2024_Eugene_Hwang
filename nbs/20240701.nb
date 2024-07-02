@@ -10,14 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      6419,        164]
-NotebookOptionsPosition[      5788,        147]
-NotebookOutlinePosition[      6184,        163]
-CellTagsIndexPosition[      6141,        160]
+NotebookDataLength[      7984,        198]
+NotebookOptionsPosition[      7068,        178]
+NotebookOutlinePosition[      7465,        194]
+CellTagsIndexPosition[      7422,        191]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell["\<\
+First, I decided to obtain the political party platforms from The American \
+Presidency Project by UC Santa Barbara. The dataset was a table of political \
+party platforms by presidential election year with a hyperlink to a separate \
+page that showed the party platform.\
+\>", "CodeText",
+ CellChangeTimes->{{3.928857106374004*^9, 
+  3.928857196290333*^9}},ExpressionUUID->"b6db1292-5b4e-4bde-9686-\
+d086157a301f"],
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"democrats", " ", "=", 
@@ -38,6 +48,17 @@ documents-archive-guidebook/party-platforms-and-nominating-conventions-3\>\"",
         RowBox[{"Length", "[", "#", "]"}], " ", ">", " ", "0"}], " ", "&"}]}],
       "]"}], "]"}]}], ";"}]], "Input",
  CellLabel->"In[90]:=",ExpressionUUID->"700c08d1-d1ba-4704-8631-52c665cd4fe1"],
+
+Cell["\<\
+This code gets a list of all of the hyperlinks that are located in the main \
+page of the dataset that are connected to the Democratic Party Platforms. I \
+used a pattern to selected all of the links connected to the Democratic Party \
+Platform. \
+\>", "CodeText",
+ CellChangeTimes->{{3.928857197511965*^9, 3.92885720813448*^9}, {
+  3.928857350133312*^9, 
+  3.928857428818248*^9}},ExpressionUUID->"109328b4-847d-4ad5-82ad-\
+9223313ae91e"],
 
 Cell[BoxData[
  RowBox[{
@@ -64,6 +85,16 @@ the-republican-party-platform\>\""}]}]}], "]"}], ",", " ",
  CellChangeTimes->{{3.928856931880742*^9, 3.9288569413522997`*^9}},
  CellLabel->
   "In[153]:=",ExpressionUUID->"9e8e1b78-b4b6-495f-8ad1-85f387493bec"],
+
+Cell["\<\
+This code gets a list of all of the hyperlinks that are located in the main \
+page of the dataset that are connected to the Republican Party Platforms. I \
+used a pattern to selected all of the links connected to the Republican Party \
+Platform. \
+\>", "CodeText",
+ CellChangeTimes->{{3.92885743795157*^9, 
+  3.92885744246949*^9}},ExpressionUUID->"f8339056-61e1-4065-a4e9-\
+22f5aa34403a"],
 
 Cell[BoxData[
  RowBox[{
@@ -146,7 +177,7 @@ Cell[BoxData[
   "In[154]:=",ExpressionUUID->"76caa5b7-5e9c-4b50-90ac-39a895e9d3e4"]
 },
 WindowSize->{808, 740},
-WindowMargins->{{99, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 249}, {Automatic, 0}},
 FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 16, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"e1718c72-dca1-4ad1-b732-828a65286c0d"
@@ -162,10 +193,13 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[561, 20, 765, 19, 178, "Input",ExpressionUUID->"700c08d1-d1ba-4704-8631-52c665cd4fe1"],
-Cell[1329, 41, 1006, 24, 241, "Input",ExpressionUUID->"9e8e1b78-b4b6-495f-8ad1-85f387493bec"],
-Cell[2338, 67, 2191, 44, 157, "Input",ExpressionUUID->"092923f6-0069-4baf-9458-9302147114a0"],
-Cell[4532, 113, 1252, 32, 157, "Input",ExpressionUUID->"76caa5b7-5e9c-4b50-90ac-39a895e9d3e4"]
+Cell[561, 20, 425, 8, 80, "CodeText",ExpressionUUID->"b6db1292-5b4e-4bde-9686-d086157a301f"],
+Cell[989, 30, 765, 19, 178, "Input",ExpressionUUID->"700c08d1-d1ba-4704-8631-52c665cd4fe1"],
+Cell[1757, 51, 448, 9, 80, "CodeText",ExpressionUUID->"109328b4-847d-4ad5-82ad-9223313ae91e"],
+Cell[2208, 62, 1006, 24, 241, "Input",ExpressionUUID->"9e8e1b78-b4b6-495f-8ad1-85f387493bec"],
+Cell[3217, 88, 398, 8, 80, "CodeText",ExpressionUUID->"f8339056-61e1-4065-a4e9-22f5aa34403a"],
+Cell[3618, 98, 2191, 44, 136, "Input",ExpressionUUID->"092923f6-0069-4baf-9458-9302147114a0"],
+Cell[5812, 144, 1252, 32, 136, "Input",ExpressionUUID->"76caa5b7-5e9c-4b50-90ac-39a895e9d3e4"]
 }
 ]
 *)
