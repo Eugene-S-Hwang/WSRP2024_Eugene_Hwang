@@ -171,7 +171,7 @@ Cell[BoxData[
     RowBox[{"republicans", "[", 
      RowBox[{"[", 
       RowBox[{"1", ";;", "10"}], "]"}], "]"}]}]}], ";"}]], "Input",
- CellChangeTimes->{{3.928856736872252*^9, 3.9288567834003363`*^9}, 
+ CellChangeTimes->{{3.928856736872252*^9, 3.9288567834003367`*^9}, 
    3.92885694782789*^9},
  CellLabel->
   "In[154]:=",ExpressionUUID->"76caa5b7-5e9c-4b50-90ac-39a895e9d3e4"]
