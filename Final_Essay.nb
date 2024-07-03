@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      6290,        180]
-NotebookOptionsPosition[      4652,        144]
-NotebookOutlinePosition[      5049,        160]
-CellTagsIndexPosition[      5006,        157]
+NotebookDataLength[      6830,        184]
+NotebookOptionsPosition[      5192,        148]
+NotebookOutlinePosition[      5589,        164]
+CellTagsIndexPosition[      5546,        161]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,27 +25,30 @@ Cell["Introduction", "Title",
   3.9289190306160917`*^9}},ExpressionUUID->"83bd32a1-d18c-4951-9b41-\
 aca67780932a"],
 
-Cell["\<\
-Politics have been an essential part of society since the very beginning, \
+Cell[TextData[{
+ "Politics have been an essential part of society since the very beginning, \
 shaping the structure of our government and policies, which in turn affect \
 our lives. The importance of politics have also led to a variety of different \
 political thoughts, such as certain beliefs, policies, and ideas. Throughout \
 the world, people and politicians with similar political thoughts and \
 ideologies have come together to form political entities known as political \
-parties. 
-
-In the United States, the two major political parties are the Democratic \
-Party and the Republican Party. These two political parties, which have \
-existed since the 1800s and have often been political rivals in the US \
+parties. \n\nIn the United States, the two major political parties are the \
+Democratic Party and the Republican Party. These two political parties, which \
+have existed since the 1800s and have often been political rivals in the US \
 government. Currently, the Democratic Party is known to be a left-wing \
 political party while the Republican Party is considered as a right-wing \
-political party.
-
-However, its political ideologies have shifted throughout the years.\
-\>", "CodeText",
- CellChangeTimes->{{3.92894370621812*^9, 3.9289442367706327`*^9}, {
-  3.9289443148439503`*^9, 
-  3.9289443374540443`*^9}},ExpressionUUID->"90c071ce-f330-4c14-b1d3-\
+political party.\n\nHowever, their political ideologies and ideas have \
+undergone significant shifts throughout the years. This begs the question: ",
+ StyleBox["Can we model how the Democratic and Republican parties\
+\[CloseCurlyQuote] platforms have shifted throughout the years?",
+  FontWeight->"Bold"]
+}], "CodeText",
+ CellChangeTimes->{{3.92894370621812*^9, 3.928944236770633*^9}, {
+   3.9289443148439503`*^9, 3.9289443374540443`*^9}, {3.929007959284129*^9, 
+   3.9290079876123037`*^9}, 3.929008033558785*^9, {3.929008200191094*^9, 
+   3.929008200938364*^9}, {3.929008417025887*^9, 3.929008449750965*^9}, {
+   3.929008544561907*^9, 3.929008561758896*^9}, {3.929008596205716*^9, 
+   3.929008618463463*^9}},ExpressionUUID->"90c071ce-f330-4c14-b1d3-\
 b7eb585ff2f5"]
 }, Open  ]],
 
@@ -99,8 +102,9 @@ Correlation of Shifts in Specific Issues to Shifts in Left-Right Spectrum\
 \>", "Title",
  CellChangeTimes->{{3.9289199243823843`*^9, 3.928919935591989*^9}, {
   3.9289200258330517`*^9, 3.928920055705288*^9}, {3.92893894103257*^9, 
-  3.9289389642274837`*^9}, {3.928939013067807*^9, 
-  3.9289390553581448`*^9}},ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-\
+  3.928938964227484*^9}, {3.928939013067807*^9, 3.9289390553581448`*^9}, {
+  3.929011499638474*^9, 
+  3.929011506898622*^9}},ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-\
 a06b8cb1103b"],
 
 Cell["\<\
@@ -161,26 +165,26 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[583, 22, 156, 3, 98, "Title",ExpressionUUID->"83bd32a1-d18c-4951-9b41-aca67780932a"],
-Cell[742, 27, 1137, 21, 269, "CodeText",ExpressionUUID->"90c071ce-f330-4c14-b1d3-b7eb585ff2f5"]
+Cell[742, 27, 1630, 24, 311, "CodeText",ExpressionUUID->"90c071ce-f330-4c14-b1d3-b7eb585ff2f5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1916, 53, 214, 4, 98, "Title",ExpressionUUID->"c93767f7-d34b-4e40-ab52-49c102e454cd"],
-Cell[2133, 59, 272, 6, 59, "CodeText",ExpressionUUID->"f0a52dcb-3efc-4df4-bc51-3a0f43fc6bfa"]
+Cell[2409, 56, 214, 4, 98, "Title",ExpressionUUID->"c93767f7-d34b-4e40-ab52-49c102e454cd"],
+Cell[2626, 62, 272, 6, 59, "CodeText",ExpressionUUID->"f0a52dcb-3efc-4df4-bc51-3a0f43fc6bfa"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2442, 70, 359, 7, 160, "Title",ExpressionUUID->"8d7efa7d-a1e2-49a0-9011-96d47edd5c4c"],
-Cell[2804, 79, 366, 12, 185, "CodeText",ExpressionUUID->"71f5c923-d43e-4a8b-a054-8220f742c7ac"]
+Cell[2935, 73, 359, 7, 160, "Title",ExpressionUUID->"8d7efa7d-a1e2-49a0-9011-96d47edd5c4c"],
+Cell[3297, 82, 366, 12, 185, "CodeText",ExpressionUUID->"71f5c923-d43e-4a8b-a054-8220f742c7ac"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3207, 96, 375, 7, 160, "Title",ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-a06b8cb1103b"],
-Cell[3585, 105, 214, 8, 101, "CodeText",ExpressionUUID->"d3282397-56ef-45c7-bb85-c930cf606232"]
+Cell[3700, 99, 422, 8, 160, "Title",ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-a06b8cb1103b"],
+Cell[4125, 109, 214, 8, 101, "CodeText",ExpressionUUID->"d3282397-56ef-45c7-bb85-c930cf606232"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3836, 118, 155, 3, 98, "Title",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
-Cell[3994, 123, 156, 3, 98, "Title",ExpressionUUID->"302c1e18-9c38-4c6f-a763-b5ddaab9264d"],
-Cell[4153, 128, 153, 3, 98, "Title",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
-Cell[4309, 133, 161, 3, 98, "Title",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
-Cell[4473, 138, 163, 3, 98, "Title",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
+Cell[4376, 122, 155, 3, 98, "Title",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
+Cell[4534, 127, 156, 3, 98, "Title",ExpressionUUID->"302c1e18-9c38-4c6f-a763-b5ddaab9264d"],
+Cell[4693, 132, 153, 3, 98, "Title",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
+Cell[4849, 137, 161, 3, 98, "Title",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
+Cell[5013, 142, 163, 3, 98, "Title",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
 }, Open  ]]
 }
 ]
