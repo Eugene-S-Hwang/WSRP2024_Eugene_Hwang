@@ -6,6 +6,7 @@ import textwrap
 # from IPython.display import display
 from IPython.display import Markdown
 import google.generativeai as genai
+from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
 # genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 genai.configure(api_key="AIzaSyAti-3Pcnrv-BznFk4T4ydt4Y8bKtk_WVs")
@@ -17,7 +18,7 @@ genai.configure(api_key="AIzaSyAti-3Pcnrv-BznFk4T4ydt4Y8bKtk_WVs")
 # Create the model
 # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
 generation_config = {
-  "temperature": 1,
+  "temperature": 0.8,
   "top_p": 0.95,
   "top_k": 64,
   "max_output_tokens": 8192,
@@ -41,7 +42,12 @@ def to_markdown(text):
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 def ask(message):
-    response = chat_session.send_message(message)
+    response = chat_session.send_message(message, stream=False, safety_settings={
+                    HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+                    HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+                    HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+                    HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+                },)
     return response.candidates[0].content.parts[0].text
 
 # message = input()
