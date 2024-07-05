@@ -4,7 +4,7 @@ import os
 # import pathlib
 import textwrap
 # from IPython.display import display
-from IPython.display import Markdown
+# from IPython.display import Markdown
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
@@ -18,7 +18,7 @@ genai.configure(api_key="AIzaSyAti-3Pcnrv-BznFk4T4ydt4Y8bKtk_WVs")
 # Create the model
 # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
 generation_config = {
-  "temperature": 0.8,
+  "temperature": 0,
   "top_p": 0.95,
   "top_k": 64,
   "max_output_tokens": 8192,
@@ -37,9 +37,9 @@ chat_session = model.start_chat(
   ]
 )
 
-def to_markdown(text):
-  text = text.replace('•', '  *')
-  return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
+# def to_markdown(text):
+#   text = text.replace('•', '  *')
+#   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 def ask(message):
     response = chat_session.send_message(message, stream=False, safety_settings={
@@ -50,5 +50,11 @@ def ask(message):
                 },)
     return response.candidates[0].content.parts[0].text
 
-# message = input()
-# print(ask(message))
+
+def ask_file():
+  with open('/Users/eugenehwang/Work/WSRP2024_Eugene_Hwang/platform.txt', 'r') as file:
+      message = file.read().replace('\\', '').strip()
+
+      file.close()
+      
+  return ask(message)

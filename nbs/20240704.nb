@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    113781,       2227]
-NotebookOptionsPosition[    111708,       2187]
-NotebookOutlinePosition[    112105,       2203]
-CellTagsIndexPosition[    112062,       2200]
+NotebookDataLength[    199208,       3798]
+NotebookOptionsPosition[    196288,       3746]
+NotebookOutlinePosition[    196685,       3762]
+CellTagsIndexPosition[    196642,       3759]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -42,7 +42,7 @@ Cell[BoxData[
   3.929028601895048*^9}, {3.929028889214341*^9, 3.929028891719819*^9}, {
   3.929029167670061*^9, 3.929029180869022*^9}, {3.929093554711495*^9, 
   3.929093555960393*^9}},
- CellLabel->"In[50]:=",ExpressionUUID->"559d1d65-f0a3-4b8b-8d9e-d08ffd3c967d"],
+ CellLabel->"In[1]:=",ExpressionUUID->"559d1d65-f0a3-4b8b-8d9e-d08ffd3c967d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -367,9 +367,9 @@ ExternalEvaluate/Python/Venv/myenv/bin/python"], Editable -> False],
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["Active"], False],
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["Active"], False],
                      StandardForm], 
                    TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
                   "SummaryItem"]}]}, {
@@ -384,7 +384,7 @@ ExternalEvaluate/Python/Venv/myenv/bin/python\"", "SummaryItem"]}]}, {
                  TagBox["\"ID: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                 "\"7d851c5d-b142-45df-9df4-ecefbbe7d258\"", 
+                 "\"cb050b3f-2217-487c-b690-b168cac7550b\"", 
                   "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"Epilog: \"", "SummaryItemAnnotation"], 
@@ -421,7 +421,7 @@ ExternalEvaluate/Python/Venv/myenv/bin/python\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"PID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["85038", "SummaryItem"]}]}}, 
+                    TagBox["19913", "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
                     AutoDelete -> False, 
@@ -456,11 +456,11 @@ ExternalEvaluate/Python/Venv/myenv/bin/python\"", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"PID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["85038", "SummaryItem"]}]}, {
+                    TagBox["19913", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"Parent PID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["77726", "SummaryItem"]}]}, {
+                    TagBox["19814", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"User: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
@@ -477,7 +477,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"29.835264`", "\"MB\"", "megabytes", 
+                    TemplateBox[{"30.031872`", "\"MB\"", "megabytes", 
                     "\"Megabytes\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -489,7 +489,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     TemplateBox[{
-                    RowBox[{"\"Thu 4 Jul 2024 15:13:06\"", 
+                    RowBox[{"\"Fri 5 Jul 2024 11:37:43\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
@@ -499,8 +499,8 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"2024", ",", "7", ",", "4", ",", "15", ",", "13", 
-                    ",", "6"}], "}"}], ",", "\"Instant\"", ",", 
+                    RowBox[{"2024", ",", "7", ",", "5", ",", "11", ",", "37", 
+                    ",", "43"}], "}"}], ",", "\"Instant\"", ",", 
                     "\"Gregorian\"", ",", 
                     RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
                     False], "SummaryItem"]}]}, {
@@ -509,15 +509,15 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.001372`5.", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
-                    "SummaryItem"]}]}, {
+                    TemplateBox[{"0.0013359999999999999`5.", "\"s\"", 
+                    "seconds", "\"Seconds\""}, "Quantity", SyntaxForm -> Mod],
+                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"User Time: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.0022690000000000002`5.", "\"s\"", 
+                    TemplateBox[{"0.0023500000000000001`5.", "\"s\"", 
                     "seconds", "\"Seconds\""}, "Quantity", SyntaxForm -> Mod],
                      "SummaryItem"]}]}, {
                     RowBox[{
@@ -525,7 +525,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0", "\"s\"", "seconds", "\"Seconds\""}, 
+                    TemplateBox[{"1.`5.", "\"s\"", "seconds", "\"Seconds\""}, 
                     "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
@@ -546,12 +546,12 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                    
                    ProcessObject[<|
-                    "ManagedProcess" -> True, "UID" -> 4, "PID" -> 85038, 
-                    "PPID" -> 77726, "Program" -> "python3.11", "Path" -> 
+                    "ManagedProcess" -> True, "UID" -> 0, "PID" -> 19913, 
+                    "PPID" -> 19814, "Program" -> "python3.11", "Path" -> 
                     "/Users/eugenehwang/Library/WolframDesktop/\
 ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" -> 
                     "eugenehwang", "StartTime" -> 
-                    DateObject[{2024, 7, 4, 15, 13, 6}, "Instant", 
+                    DateObject[{2024, 7, 5, 11, 37, 43}, "Instant", 
                     "Gregorian", -4.]|>], Selectable -> False, Editable -> 
                    False, SelectWithContents -> True], "SummaryItem"]}]}, {
                RowBox[{
@@ -659,7 +659,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     RowBox[{
                     TagBox["\"Port: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["65476", "SummaryItem"]}], 
+                    TagBox["49471", "SummaryItem"]}], 
                     RowBox[{
                     TagBox["\"Type: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
@@ -668,7 +668,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    "\"44e45635-f925-499c-84ea-e01eeb994f81\"", 
+                    "\"12bbddb9-61a4-4b23-b753-258a22b1ff47\"", 
                     "SummaryItem"]}], "\[SpanFromLeft]", "\[SpanFromLeft]"}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
@@ -762,7 +762,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     RowBox[{
                     TagBox["\"Port: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["65476", "SummaryItem"]}], 
+                    TagBox["49471", "SummaryItem"]}], 
                     RowBox[{
                     TagBox["\"Type: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
@@ -771,13 +771,13 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    "\"44e45635-f925-499c-84ea-e01eeb994f81\"", 
+                    "\"12bbddb9-61a4-4b23-b753-258a22b1ff47\"", 
                     "SummaryItem"]}], "\[SpanFromLeft]", "\[SpanFromLeft]"}, {
                     
                     RowBox[{
                     TagBox["\"Endpoint: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["\"tcp://127.0.0.1:65476\"", "SummaryItem"]}], 
+                    TagBox["\"tcp://127.0.0.1:49471\"", "SummaryItem"]}], 
                     "\[SpanFromLeft]", "\[SpanFromLeft]"}}, 
                     GridBoxAlignment -> {
                     "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
@@ -796,7 +796,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     BaselinePosition -> {1, 1}]}, 
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
-                   SocketObject["44e45635-f925-499c-84ea-e01eeb994f81"], 
+                   SocketObject["12bbddb9-61a4-4b23-b753-258a22b1ff47"], 
                    Selectable -> False, Editable -> False, SelectWithContents -> 
                    True], "SummaryItem"]}]}, {
                RowBox[{
@@ -824,9 +824,9 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"][
+                    "cb050b3f-2217-487c-b690-b168cac7550b"][
                     "EvaluationCount"], None], StandardForm], 
                    TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
                   "SummaryItem"]}]}, {
@@ -839,10 +839,10 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     Refresh[
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["ProcessMemory"], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["ProcessMemory"], 
                     UpdateInterval -> 5], 
                     Missing["NotAvailable"]], StandardForm], 
                    TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
@@ -856,10 +856,10 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     Refresh[
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["ProcessThreads"],
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["ProcessThreads"],
                      UpdateInterval -> 5], 
                     Missing["NotAvailable"]], StandardForm], 
                    TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
@@ -873,10 +873,10 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     Refresh[
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["SessionTime"], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["SessionTime"], 
                     UpdateInterval -> 1], 
                     Missing["NotAvailable"]], StandardForm], 
                    TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
@@ -897,16 +897,17 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
        Dynamic[Typeset`open$$], ImageSize -> Automatic]},
      "SummaryPanel"],
     DynamicModuleValues:>{}], "]"}],
-  ExternalSessionObject["7d851c5d-b142-45df-9df4-ecefbbe7d258"],
+  ExternalSessionObject["cb050b3f-2217-487c-b690-b168cac7550b"],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{
   3.9290935595580463`*^9, 3.929093882257854*^9, 3.929094018331723*^9, 
    3.9290946808070498`*^9, 3.929098932517847*^9, 3.929099563779026*^9, 
-   3.9291081525325613`*^9, {3.9291090081872168`*^9, 3.9291090267949038`*^9}, 
-   3.929109088736911*^9, 3.929109186876402*^9},
- CellLabel->"Out[50]=",ExpressionUUID->"54d0dd51-6522-4364-a4cd-254107fe4214"]
+   3.9291081525325613`*^9, {3.9291090081872177`*^9, 3.929109026794904*^9}, 
+   3.929109088736911*^9, 3.929109186876402*^9, 3.9291779334594803`*^9, 
+   3.9291826643024683`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"ff67a1d7-3742-4ff6-aef9-b732bdb17887"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -918,7 +919,7 @@ Cell[BoxData[
     RowBox[{
     "\"\</Users/eugenehwang/Work/WSRP2024_Eugene_Hwang/gemini.py\>\"", ",", 
      " ", "\"\<Text\>\""}], "]"}]}], "]"}]], "Input",
- CellLabel->"In[51]:=",ExpressionUUID->"fdb4713f-0754-4621-a530-98d382f385f3"],
+ CellLabel->"In[20]:=",ExpressionUUID->"fdb4713f-0754-4621-a530-98d382f385f3"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -949,13 +950,14 @@ Cell[BoxData[
                  TagBox["\"Arguments: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                  RowBox[{"{", "\"message\"", "}"}], "SummaryItem"]}]}, {
+                  RowBox[{"{", "}"}], "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"Command: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
                   PaneBox[
-                   StyleBox["\"ask\"", "Program", LineBreakWithin -> False], 
+                   StyleBox[
+                   "\"ask_file\"", "Program", LineBreakWithin -> False], 
                    ImageSize -> {{1, 500}, Medium}], "SummaryItem"]}], 
                "\[SpanFromLeft]"}}, 
              GridBoxAlignment -> {
@@ -991,14 +993,15 @@ Cell[BoxData[
                  TagBox["\"Arguments: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                  RowBox[{"{", "\"message\"", "}"}], "SummaryItem"]}]}, {
+                  RowBox[{"{", "}"}], "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"Command: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
                   FrameBox[
                    PaneBox[
-                    StyleBox["\"ask\"", "Program", LineBreakWithin -> False], 
+                    StyleBox[
+                    "\"ask_file\"", "Program", LineBreakWithin -> False], 
                     ImageSize -> {{1, 500}, Large}, ContentPadding -> False, 
                     FrameMargins -> 0, StripOnInput -> True, BaselinePosition -> 
                     Baseline], Background -> RGBColor[0.94, 0.94, 0.94], 
@@ -1358,9 +1361,9 @@ ApplicationData/ExternalEvaluate/Python/Venv/myenv/bin/python"], Editable ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["Active"], False],
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["Active"], False],
                      StandardForm], TrackedSymbols :> {
                     ExternalEvaluate`Private`$Links}], "SummaryItem"]}]}, {
                     RowBox[{
@@ -1374,7 +1377,7 @@ ApplicationData/ExternalEvaluate/Python/Venv/myenv/bin/python\"",
                     TagBox["\"ID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    "\"7d851c5d-b142-45df-9df4-ecefbbe7d258\"", 
+                    "\"cb050b3f-2217-487c-b690-b168cac7550b\"", 
                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"Epilog: \"", "SummaryItemAnnotation"], 
@@ -1410,7 +1413,7 @@ ApplicationData/ExternalEvaluate/Python/Venv/myenv/bin/python\"",
                     RowBox[{
                     TagBox["\"PID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["85038", "SummaryItem"]}]}}, 
+                    TagBox["19913", "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
                     "Rows" -> {{Automatic}}}, AutoDelete -> False, 
                     GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
@@ -1441,11 +1444,11 @@ ApplicationData/ExternalEvaluate/Python/Venv/myenv/bin/python\"",
                     RowBox[{
                     TagBox["\"PID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["85038", "SummaryItem"]}]}, {
+                    TagBox["19913", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"Parent PID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["77726", "SummaryItem"]}]}, {
+                    TagBox["19814", "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"User: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
@@ -1462,7 +1465,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"92.225536`", "\"MB\"", "megabytes", 
+                    TemplateBox[{"31.21152`", "\"MB\"", "megabytes", 
                     "\"Megabytes\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -1474,7 +1477,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     TemplateBox[{
-                    RowBox[{"\"Thu 4 Jul 2024 15:13:06\"", 
+                    RowBox[{"\"Fri 5 Jul 2024 11:37:43\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
@@ -1484,8 +1487,8 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     RowBox[{
                     RowBox[{"{", 
                     
-                    RowBox[{"2024", ",", "7", ",", "4", ",", "15", ",", "13", 
-                    ",", "6"}], "}"}], ",", "\"Instant\"", ",", 
+                    RowBox[{"2024", ",", "7", ",", "5", ",", "11", ",", "37", 
+                    ",", "43"}], "}"}], ",", "\"Instant\"", ",", 
                     "\"Gregorian\"", ",", 
                     RowBox[{"-", "4.`"}]}], "]"}]}, "DateObject", Editable -> 
                     False], "SummaryItem"]}]}, {
@@ -1494,24 +1497,27 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.003885`5.", "\"s\"", "seconds", 
-                    "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
-                    "SummaryItem"]}]}, {
+                    TemplateBox[{"0.0150170000000000008`5.", "\"s\"", 
+                    "seconds", "\"Seconds\""}, "Quantity", SyntaxForm -> Mod],
+                     "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"User Time: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.0096349999999999995`5.", "\"s\"", 
+                    TemplateBox[{"0.0168449999999999989`5.", "\"s\"", 
                     "seconds", "\"Seconds\""}, "Quantity", SyntaxForm -> Mod],
                      "SummaryItem"]}]}, {
                     RowBox[{
                     TagBox["\"Real Time: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    
-                    TemplateBox[{"2.`5.", "\"s\"", "seconds", "\"Seconds\""}, 
-                    "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}}, 
+                    TemplateBox[{"10", "12.`5.", 
+                    RowBox[{"\[ThinSpace]", "\"min\""}], 
+                    RowBox[{"\[ThinSpace]", "\"s\""}], "minutes,seconds", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Minutes\"", ",", "\"Seconds\""}], "}"}]}, 
+                    "QuantityMixedUnit2"], "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
                     "Rows" -> {{Automatic}}}, AutoDelete -> False, 
                     GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
@@ -1525,13 +1531,14 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11\"",
                     "Rows" -> {{Automatic}}}, BaselinePosition -> {1, 1}]}, 
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
-                    ProcessObject[<|"ManagedProcess" -> True, "UID" -> 4, 
-                    "PID" -> 85038, "PPID" -> 77726, "Program" -> 
+                    
+                    ProcessObject[<|"ManagedProcess" -> True, "UID" -> 0, 
+                    "PID" -> 19913, "PPID" -> 19814, "Program" -> 
                     "python3.11", "Path" -> 
                     "/Users/eugenehwang/Library/WolframDesktop/\
 ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" -> 
                     "eugenehwang", "StartTime" -> 
-                    DateObject[{2024, 7, 4, 15, 13, 6}, "Instant", 
+                    DateObject[{2024, 7, 5, 11, 37, 43}, "Instant", 
                     "Gregorian", -4.]|>], Selectable -> False, Editable -> 
                     False, SelectWithContents -> True], "SummaryItem"]}]}, {
                     RowBox[{
@@ -1638,7 +1645,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     RowBox[{
                     TagBox["\"Port: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["65476", "SummaryItem"]}], 
+                    TagBox["49471", "SummaryItem"]}], 
                     RowBox[{
                     TagBox["\"Type: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
@@ -1647,7 +1654,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    "\"44e45635-f925-499c-84ea-e01eeb994f81\"", 
+                    "\"12bbddb9-61a4-4b23-b753-258a22b1ff47\"", 
                     "SummaryItem"]}], "\[SpanFromLeft]", "\[SpanFromLeft]"}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
                     "Rows" -> {{Automatic}}}, AutoDelete -> False, 
@@ -1737,7 +1744,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     RowBox[{
                     TagBox["\"Port: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["65476", "SummaryItem"]}], 
+                    TagBox["49471", "SummaryItem"]}], 
                     RowBox[{
                     TagBox["\"Type: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
@@ -1746,13 +1753,13 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
                     TagBox[
-                    "\"44e45635-f925-499c-84ea-e01eeb994f81\"", 
+                    "\"12bbddb9-61a4-4b23-b753-258a22b1ff47\"", 
                     "SummaryItem"]}], "\[SpanFromLeft]", "\[SpanFromLeft]"}, {
                     
                     RowBox[{
                     TagBox["\"Endpoint: \"", "SummaryItemAnnotation"], 
                     "\[InvisibleSpace]", 
-                    TagBox["\"tcp://127.0.0.1:65476\"", "SummaryItem"]}], 
+                    TagBox["\"tcp://127.0.0.1:49471\"", "SummaryItem"]}], 
                     "\[SpanFromLeft]", "\[SpanFromLeft]"}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}, 
                     "Rows" -> {{Automatic}}}, AutoDelete -> False, 
@@ -1767,7 +1774,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     "Rows" -> {{Automatic}}}, BaselinePosition -> {1, 1}]}, 
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
-                    SocketObject["44e45635-f925-499c-84ea-e01eeb994f81"], 
+                    SocketObject["12bbddb9-61a4-4b23-b753-258a22b1ff47"], 
                     Selectable -> False, Editable -> False, 
                     SelectWithContents -> True], "SummaryItem"]}]}, {
                     RowBox[{
@@ -1795,9 +1802,9 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"][
+                    "cb050b3f-2217-487c-b690-b168cac7550b"][
                     "EvaluationCount"], None], StandardForm], 
                     TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
                     "SummaryItem"]}]}, {
@@ -1810,10 +1817,10 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     Refresh[
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["ProcessMemory"], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["ProcessMemory"], 
                     UpdateInterval -> 5], 
                     Missing["NotAvailable"]], StandardForm], 
                     TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
@@ -1827,10 +1834,10 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     Refresh[
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["ProcessThreads"],
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["ProcessThreads"],
                      UpdateInterval -> 5], 
                     Missing["NotAvailable"]], StandardForm], 
                     TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
@@ -1844,10 +1851,10 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     If[
                     TrueQ[
                     ExternalEvaluate`Private`getSessionOpts[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258", "Exists"]], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b", "Exists"]], 
                     Refresh[
                     ExternalSessionObject[
-                    "7d851c5d-b142-45df-9df4-ecefbbe7d258"]["SessionTime"], 
+                    "cb050b3f-2217-487c-b690-b168cac7550b"]["SessionTime"], 
                     UpdateInterval -> 1], 
                     Missing["NotAvailable"]], StandardForm], 
                     TrackedSymbols :> {ExternalEvaluate`Private`$Links}], 
@@ -1870,7 +1877,7 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
                     Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                    ExternalSessionObject[
-                   "7d851c5d-b142-45df-9df4-ecefbbe7d258"], Selectable -> 
+                   "cb050b3f-2217-487c-b690-b168cac7550b"], Selectable -> 
                    False, Editable -> False, SelectWithContents -> True], 
                   "SummaryItem"]}]}}, 
              GridBoxAlignment -> {
@@ -1890,20 +1897,22 @@ ApplicationData/ExternalEvaluate/Python/Main/3.11/bin/python3.11", "User" ->
      "SummaryPanel"],
     DynamicModuleValues:>{}], "]"}],
   ExternalFunction[<|
-   "System" -> "Python", "Type" -> "PythonFunction", 
-    "Arguments" -> {"message"}, "Command" -> "ask", "IsModule" -> False, 
-    "IsClass" -> False, "IsFunction" -> True, "IsMethod" -> False, 
-    "IsCallable" -> True, "Session" -> 
-    ExternalSessionObject["7d851c5d-b142-45df-9df4-ecefbbe7d258"]|>],
+   "System" -> "Python", "Type" -> "PythonFunction", "Arguments" -> {}, 
+    "Command" -> "ask_file", "IsModule" -> False, "IsClass" -> False, 
+    "IsFunction" -> True, "IsMethod" -> False, "IsCallable" -> True, 
+    "Session" -> 
+    ExternalSessionObject["cb050b3f-2217-487c-b690-b168cac7550b"]|>],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{
   3.929093564134322*^9, 3.929093884034361*^9, 3.9290940214946136`*^9, 
-   3.929094681937872*^9, 3.9290989340893793`*^9, 3.929099566728606*^9, 
-   3.929108153982534*^9, {3.929109013064372*^9, 3.9291090287787046`*^9}, 
-   3.929109091181304*^9, 3.929109188711053*^9},
- CellLabel->"Out[51]=",ExpressionUUID->"5d75d51f-3028-4f3b-aa39-f3797db5a99d"]
+   3.929094681937872*^9, 3.929098934089379*^9, 3.929099566728606*^9, 
+   3.929108153982534*^9, {3.929109013064372*^9, 3.929109028778704*^9}, 
+   3.929109091181304*^9, 3.929109188711053*^9, 3.929177712248291*^9, 
+   3.929177782329527*^9, 3.929177934965218*^9, 3.929182666079544*^9, 
+   3.929183275425624*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"d3edd191-d61d-4ca2-b765-a1acbf14d663"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1919,7 +1928,7 @@ Cell[BoxData[
      "\"\<establishment-liberals\>\"", ",", " ", "\"\<progressive-left\>\""}],
      "}"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.929093821148897*^9, 3.929093830695622*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"40c130a7-7f13-494b-a4ab-5e547a1d899f"],
+ CellLabel->"In[3]:=",ExpressionUUID->"40c130a7-7f13-494b-a4ab-5e547a1d899f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1946,7 +1955,7 @@ Cell[BoxData[
             " ", "\"\<Next:\>\""}], "]"}]}], "]"}], " ", "&"}], "/@", " ", 
       "groups"}], "]"}]}]}], ";"}]], "Input",
  CellChangeTimes->{{3.929093832770728*^9, 3.929093834820241*^9}},
- CellLabel->"In[15]:=",ExpressionUUID->"8e49a7cf-7132-4d18-bca1-4ed8c2e61756"],
+ CellLabel->"In[4]:=",ExpressionUUID->"8e49a7cf-7132-4d18-bca1-4ed8c2e61756"],
 
 Cell[CellGroupData[{
 
@@ -1962,21 +1971,21 @@ of the typology groups. Next, I will input the party platforms that you can \
 classify as one of these groups based on the descriptions that I input \
 previously.')\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.929093595569073*^9, 3.929093736603534*^9}},
- CellLabel->"In[52]:=",ExpressionUUID->"b60b09ba-9653-4c95-ac2a-7a9e9c016ac0"],
+ CellLabel->"In[24]:=",ExpressionUUID->"b60b09ba-9653-4c95-ac2a-7a9e9c016ac0"],
 
-Cell[BoxData["\<\"I understand. I'm ready to receive your descriptions of the \
-nine political typology groups. Once you provide them, I'll do my best to \
-classify the party platforms you provide based on those descriptions. Please \
-be as detailed and specific as possible when describing each group. The more \
-information I have, the better I'll be able to understand the nuances of each \
-typology and accurately classify the platforms. \\n\"\>"], "Output",
+Cell[BoxData["\<\"Sounds great! I'm ready to help you classify the party \
+platforms. Please provide the descriptions of the nine political typology \
+groups, and I'll do my best to accurately label them. Then, I'll be happy to \
+classify the party platforms based on those descriptions. \\n\"\>"], "Output",\
+
  CellChangeTimes->{
   3.929093738900826*^9, {3.929093879333756*^9, 3.929093913618827*^9}, {
    3.929094040966524*^9, 3.929094043997869*^9}, 3.929094703281727*^9, 
    3.929098958479411*^9, 3.929099601540523*^9, 3.92910817528576*^9, {
    3.929109017880975*^9, 3.929109032395176*^9}, 3.9291090939785023`*^9, 
-   3.929109191300593*^9},
- CellLabel->"Out[52]=",ExpressionUUID->"b3973dc9-eb53-47c8-984d-111b7c513dc2"]
+   3.929109191300593*^9, 3.929177941224738*^9, 3.929182695692872*^9, 
+   3.929183323760601*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"f1b8b4fc-d412-4888-9e6a-ce6664d29f99"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1998,9 +2007,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.929093753986342*^9, 3.929093769699544*^9}, {
   3.929094047265786*^9, 3.929094081445643*^9}, {3.929094130929831*^9, 
   3.929094188261485*^9}, {3.9290942826636972`*^9, 3.929094288279478*^9}, {
-  3.929094726855167*^9, 3.9290947699540977`*^9}, {3.929108200354745*^9, 
-  3.9291082101549387`*^9}},
- CellLabel->"In[53]:=",ExpressionUUID->"0a6b7459-50c6-4908-a096-58f5419bc056"],
+  3.929094726855167*^9, 3.929094769954098*^9}, {3.929108200354745*^9, 
+  3.929108210154939*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"0a6b7459-50c6-4908-a096-58f5419bc056"],
 
 Cell[CellGroupData[{
 
@@ -2012,18 +2021,31 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.92909425355637*^9, 3.929094264964818*^9}, 
    3.929094714736668*^9},
- CellLabel->"In[54]:=",ExpressionUUID->"5cef19ef-192c-4dab-ab8a-96ad7033f774"],
+ CellLabel->"In[26]:=",ExpressionUUID->"5cef19ef-192c-4dab-ab8a-96ad7033f774"],
 
-Cell[BoxData["\<\"Okay, I'm ready!  I'll use the detailed descriptions you \
-provided for each of the nine political typology groups to classify the party \
-platforms you'll provide. Please share the platforms one at a time, and I'll \
-do my best to match them to the appropriate group based on the information \
-you've given me. \\n\\nI'm excited to see how this works! \\n\"\>"], "Output",\
-
- CellChangeTimes->{3.929094266973514*^9, 3.929094716077264*^9, 
-  3.929098968458995*^9, 3.9290996150384073`*^9, 3.929108248338171*^9, 
-  3.929109228155179*^9},
- CellLabel->"Out[54]=",ExpressionUUID->"3e41a193-21bd-4203-b88a-8e06759f6ad2"]
+Cell[BoxData["\<\"Okay, I'm ready to classify political party platforms using \
+the descriptions you provided for the nine typology groups. \\n\\nPlease \
+provide the party platforms, and I'll do my best to classify them as one of \
+the following groups:\\n\\n1. **Faith and Flag Conservatives:** Staunchly \
+conservative on all issues; deeply loyal to Donald Trump\\n2. **Committed \
+Conservatives:** Stalwart Republicans, supporters of Trump \[Dash] with \
+reservations\\n3. **Populist Right:** Immigration hard-liners with critical \
+views of the economic system\\n4. **Ambivalent Right:** Young and politically \
+cross-pressured: Conservative on economics and issues of race and gender, \
+less so on immigration, social issues\\n5. **Stressed Sideliners:** Mixed \
+political views, low interest in politics\\n6. **Outsider Left:** Young, \
+liberal, discontented Democrats\\n7. **Progressive Left:** Very liberal, \
+highly educated and majority White; most say U.S. institutions need to be \
+completely rebuilt because of racial bias\\n8. **Democratic Mainstays:** \
+Racially diverse, older, steadfast Democrats: Economically liberal, \
+pro-military and moderate on immigration and social issues\\n9. \
+**Establishment Liberals:** Liberal and racially and ethnically diverse, they \
+stand out for their optimism and support for political compromise\\n\\nI'll \
+analyze the platforms based on the key characteristics you described for each \
+group.  Let's get started! \\n\"\>"], "Output",
+ CellChangeTimes->{{3.9291779704495487`*^9, 3.929177976146202*^9}, 
+   3.929182758549971*^9, 3.9291834052898893`*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"07c47cff-2938-4c98-9011-459b9ab0d2ed"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -2069,7 +2091,7 @@ the-republican-party-platform\>\""}]}]}], "]"}], ",", " ",
        RowBox[{
         RowBox[{"Length", "[", "#", "]"}], " ", ">", " ", "0"}], " ", "&"}]}],
       "]"}], "]"}]}], ";"}]], "Input",
- CellLabel->"In[21]:=",ExpressionUUID->"381b7fce-6b1c-4113-b99b-6317c96f866a"],
+ CellLabel->"In[9]:=",ExpressionUUID->"381b7fce-6b1c-4113-b99b-6317c96f866a"],
 
 Cell[BoxData[
  RowBox[{
@@ -2099,7 +2121,7 @@ Cell[BoxData[
          RowBox[{"-", "1"}]}]}], "]"}], "]"}], " ", "&"}], " ", "/@", " ", 
     RowBox[{"democrats", "[", 
      RowBox[{"[", 
-      RowBox[{"1", ";;", "10"}], "]"}], "]"}]}]}], ";"}]], "Input",
+      RowBox[{"1", ";;", "25"}], "]"}], "]"}]}]}], ";"}]], "Input",
  CellChangeTimes->{{3.9288526171898327`*^9, 3.928852617782092*^9}, {
    3.9288537341639423`*^9, 3.928853751428297*^9}, {3.928854058575479*^9, 
    3.928854058840439*^9}, {3.928854218583096*^9, 3.928854222886982*^9}, {
@@ -2113,8 +2135,10 @@ Cell[BoxData[
    3.928855970664737*^9}, {3.928856228233855*^9, 3.928856258723381*^9}, {
    3.928856301393928*^9, 3.928856350210287*^9}, {3.928856383703747*^9, 
    3.928856521884019*^9}, {3.9288565585182753`*^9, 3.928856663334841*^9}, {
-   3.928856707213431*^9, 3.928856726766301*^9}, 3.928856989873223*^9},
- CellLabel->"In[9]:=",ExpressionUUID->"83dd837f-086b-4071-922c-6abc4fddd712"],
+   3.928856707213431*^9, 3.928856726766301*^9}, 3.928856989873223*^9, {
+   3.929178617616693*^9, 3.929178617733294*^9}, {3.929179814210308*^9, 
+   3.929179815061646*^9}, {3.929181245875659*^9, 3.929181248651916*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"83dd837f-086b-4071-922c-6abc4fddd712"],
 
 Cell[BoxData[
  RowBox[{
@@ -2144,46 +2168,1581 @@ Cell[BoxData[
          RowBox[{"-", "1"}]}]}], "]"}], "]"}], " ", "&"}], " ", "/@", " ", 
     RowBox[{"republicans", "[", 
      RowBox[{"[", 
-      RowBox[{"1", ";;", "10"}], "]"}], "]"}]}]}], ";"}]], "Input",
+      RowBox[{"1", ";;", "25"}], "]"}], "]"}]}]}], ";"}]], "Input",
  CellChangeTimes->{{3.928856736872252*^9, 3.928856783400337*^9}, 
-   3.92885694782789*^9},
- CellLabel->"In[22]:=",ExpressionUUID->"abb785ad-c06b-4296-b883-cad6e6a8186e"],
+   3.92885694782789*^9, {3.92917861893568*^9, 3.929178619544629*^9}, {
+   3.929179816435683*^9, 3.929179816721618*^9}, {3.9291812470381947`*^9, 
+   3.9291812470961123`*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"abb785ad-c06b-4296-b883-cad6e6a8186e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "prompt", "=", 
+   "\"\<Classify the political party platform into one of the \\\\\nnine \
+typology groups I had explained before, and please only output \\\\\nthe \
+classified typology group. This is the party platform:\>\""}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.929177551808565*^9, 3.929177562817524*^9}, {
+  3.929178007685227*^9, 3.929178020846888*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"7e799841-45bc-4fe8-b49a-f9950ad1e233"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"llmclassify", "[", "text_", "]"}], ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"t", " ", "=", " ", "text"}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"Export", "[", 
+      RowBox[{
+      "\"\</Users/eugenehwang/Work/WSRP2024_Eugene_Hwang/platform.txt\>\"", 
+       ",", 
+       RowBox[{
+        RowBox[{"StringTrim", "[", 
+         RowBox[{"StringTake", "[", 
+          RowBox[{"t", ",", " ", "10000"}], "]"}], "]"}], "<>", 
+        "\"\<\\n\\n\>\"", "<>", "prompt"}]}], "]"}], ";", 
+     RowBox[{"ExternalEvaluate", "[", 
+      RowBox[{"session", ",", " ", "\"\<ask_file()\>\""}], "]"}]}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.929182299735302*^9, 3.929182330810204*^9}, {
+   3.929182649222228*^9, 3.929182658615575*^9}, 3.929182957542101*^9, {
+   3.929183151749977*^9, 3.9291831712743692`*^9}, {3.92918330190114*^9, 
+   3.929183302753805*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"11b71366-27c9-47f1-9670-eda21cf06469"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"ExternalEvaluate", "[", 
-  RowBox[{"session", ",", " ", 
+ RowBox[{"democratClassified", " ", "=", " ", 
+  RowBox[{"Table", "[", 
    RowBox[{
-   "\"\<ask(\\\"\\\"\\\"Classify the 2008 Democratic Party political platform \
-into one of the nine typology groups I had explained before, and please only \
-output the classified typology group. This is the party platform: \>\"", " ", 
-    "~~", 
-    RowBox[{"democratTexts", "[", 
-     RowBox[{"[", "4", "]"}], "]"}], "~~", "\"\<\\\"\\\"\\\")\>\""}]}], 
-  "]"}]], "Input",
- CellChangeTimes->CompressedData["
-1:eJwdzk0ow3EAxvHZkiWkpchLG7U2aoutlhJmLTNLiouXvDSbNsooIyy0eUle
-ai0HmsOQaCzaCjUixdIWLYclHLzNwcumJAfyf36Hp8/t6ZutNtRo6TQajU0N
-ciKNGbzytzKnpYINPYUjXDjbFpcLFfYyAfwUqYjB1UABlBk1YvgokHXyKTuH
-v7rh9YFFl0sZ2vV2wVtxjBEypex+6Hc/hQWUlVWqV3iuqI7Cq+joL9SJeHQh
-ZatDnAitC98s6Fm0pUJbgjMTfh2EiGPpAQ5ciWVlw5K15RbImPdrYErxhR7+
-uRVGmK6ODMAshnIQ+vRyJ4yV9mzCgFVYm0+5vWVugMG7nxZ4spenhZcSvh5+
-JK8TTYbiXuiaezfCmUffAExqjzfBhtIkM8wJ1hHN9R1TsKk5fhr23U+4yO/x
-0A7cfB7fh3/yDaJZyD2EDuXiEelycc+gV9ZBTLstuiH/k/3EPB3zgXTcSIj2
-1aUXeNodJv4DTqLf7Q==
-  "],
- CellLabel->"In[84]:=",ExpressionUUID->"ff8fb17a-5cfb-4c86-8e83-e75d3df61a5b"],
+    RowBox[{"llmclassify", "[", "text", "]"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"text", ",", " ", 
+      RowBox[{"democratTexts", "[", 
+       RowBox[{"[", 
+        RowBox[{"1", ";;", "5"}], "]"}], "]"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.929182289872733*^9, 3.929182294563511*^9}, {
+  3.929182343729661*^9, 3.9291823665021152`*^9}, {3.929182919320491*^9, 
+  3.929182924446043*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"6ddfe849-4675-48c8-96ee-b8ee49ea98e3"],
 
-Cell[BoxData["\<\"**Progressive Left** \\n\"\>"], "Output",
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Populist \\n\"\>", ",", "\<\"Populist \\n\"\>", 
+   ",", "\<\"Populist \\n\"\>", ",", "\<\"Populist \\n\"\>", 
+   ",", "\<\"Liberal \\n\"\>"}], "}"}]], "Output",
  CellChangeTimes->{
-  3.929113596543634*^9, 3.9291136515465927`*^9, 3.929113703936301*^9, {
-   3.9291139915238543`*^9, 3.929114003011753*^9}, {3.929114080490347*^9, 
-   3.929114123528303*^9}, {3.92911419120745*^9, 3.929114207001028*^9}, 
-   3.929114331576416*^9, {3.9291143883517323`*^9, 3.929114418246757*^9}, 
-   3.929114449380023*^9, 3.929115358271414*^9},
- CellLabel->"Out[84]=",ExpressionUUID->"992c53c0-05ec-4ee6-b588-48a186d313d4"]
-}, Open  ]]
+  3.929182941435733*^9, 3.929183193888682*^9, {3.9291832991834784`*^9, 
+   3.9291833151984653`*^9}, 3.929183437551203*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"8c48f941-fa7e-4aaf-97c1-02dea586186d"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ruleGroups", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"typologyGroups", "[", 
+       RowBox[{"[", "i", "]"}], "]"}], "->", 
+      RowBox[{"groups", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", 
+       RowBox[{"Range", "[", "9", "]"}]}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.9291838698017178`*^9, 3.929183888502153*^9}, {
+  3.9291839640780478`*^9, 3.929183984480789*^9}, {3.929184041333053*^9, 
+  3.929184047488941*^9}, {3.929184113982677*^9, 3.929184119578245*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"f049501b-ab3a-4542-beab-86719d39bf5a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"test", " ", "=", " ", 
+  RowBox[{"Classify", "[", "ruleGroups", "]"}]}]], "Input",
+ CellChangeTimes->{{3.9291839872680063`*^9, 3.929183995359663*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"4fa95c60-f2af-4a61-abf6-6bda45fd0238"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ClassifierFunction",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{{
+               PointSize[0.13], 
+               GrayLevel[0.45], 
+               
+               PointBox[{{0.9821769431797024, -0.440194219686987}, {
+                1.1339776261519132`, 0.8056918676854272}, {0.5279892326667741,
+                 0.6574306661126254}, {0.022147046479890797`, 
+                1.4937877187998898`}}], 
+               GrayLevel[0.7], 
+               
+               PointBox[{{-0.9815166384819979, 
+                0.15045697525228735`}, {-0.5923526886966953, \
+-0.33441771553094035`}, {-0.005656646679640442, -1.462421365651345}, \
+{-1.0734370436522753`, -1.3729645043477454`}}]}, {
+               GrayLevel[0.55], 
+               AbsoluteThickness[1.5], 
+               LineBox[{{-1., 1.5}, {1, -1.6}}]}}, {
+             Axes -> {False, False}, AxesLabel -> {None, None}, 
+              AxesOrigin -> {0, 0}, BaseStyle -> {FontFamily -> "Arial", 
+                AbsoluteThickness[1.5]}, DisplayFunction -> Identity, 
+              Frame -> {{True, True}, {True, True}}, 
+              FrameLabel -> {{None, None}, {None, None}}, FrameStyle -> 
+              Directive[
+                Thickness[Tiny], 
+                GrayLevel[0.7]], FrameTicks -> {{None, None}, {None, None}}, 
+              GridLines -> {None, None}, 
+              LabelStyle -> {FontFamily -> "Arial"}, 
+              Method -> {"ScalingFunctions" -> None}, 
+              PlotRange -> {{-1., 1}, {-1.3, 1.1}}, PlotRangeClipping -> True,
+               PlotRangePadding -> {{0.7, 0.7}, {0.7, 0.7}}, 
+              Ticks -> {None, None}}, Axes -> False, AspectRatio -> 1, 
+             ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], Frame -> True, FrameTicks -> None, 
+             FrameStyle -> Directive[
+               Opacity[0.5], 
+               Thickness[Tiny], 
+               RGBColor[0.368417, 0.506779, 0.709798]], Background -> 
+             GrayLevel[0.94]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Input type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"Text\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Number of classes: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   TooltipBox["9", 
+                    TagBox[
+                    RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"ambivalent-right\"", ",", 
+                    "\"committed-conservatives\"", ",", 
+                    RowBox[{"\[LeftSkeleton]", "5", "\[RightSkeleton]"}], ",",
+                     "\"progressive-left\"", ",", "\"stressed-sideliners\""}],
+                     "}"}], Short[#, 1]& ]], Annotation[#, 
+                    
+                    Short[{"ambivalent-right", "committed-conservatives", 
+                    "democratic-mainstays", "establishment-liberals", 
+                    "faith-and-flag-conservatives", "outsider-left", 
+                    "populist-right", "progressive-left", 
+                    "stressed-sideliners"}, 1], "Tooltip"]& ], 
+                  "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{{
+               PointSize[0.13], 
+               GrayLevel[0.45], 
+               
+               PointBox[{{0.9821769431797024, -0.440194219686987}, {
+                1.1339776261519132`, 0.8056918676854272}, {0.5279892326667741,
+                 0.6574306661126254}, {0.022147046479890797`, 
+                1.4937877187998898`}}], 
+               GrayLevel[0.7], 
+               
+               PointBox[{{-0.9815166384819979, 
+                0.15045697525228735`}, {-0.5923526886966953, \
+-0.33441771553094035`}, {-0.005656646679640442, -1.462421365651345}, \
+{-1.0734370436522753`, -1.3729645043477454`}}]}, {
+               GrayLevel[0.55], 
+               AbsoluteThickness[1.5], 
+               LineBox[{{-1., 1.5}, {1, -1.6}}]}}, {
+             Axes -> {False, False}, AxesLabel -> {None, None}, 
+              AxesOrigin -> {0, 0}, BaseStyle -> {FontFamily -> "Arial", 
+                AbsoluteThickness[1.5]}, DisplayFunction -> Identity, 
+              Frame -> {{True, True}, {True, True}}, 
+              FrameLabel -> {{None, None}, {None, None}}, FrameStyle -> 
+              Directive[
+                Thickness[Tiny], 
+                GrayLevel[0.7]], FrameTicks -> {{None, None}, {None, None}}, 
+              GridLines -> {None, None}, 
+              LabelStyle -> {FontFamily -> "Arial"}, 
+              Method -> {"ScalingFunctions" -> None}, 
+              PlotRange -> {{-1., 1}, {-1.3, 1.1}}, PlotRangeClipping -> True,
+               PlotRangePadding -> {{0.7, 0.7}, {0.7, 0.7}}, 
+              Ticks -> {None, None}}, Axes -> False, AspectRatio -> 1, 
+             ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], Frame -> True, FrameTicks -> None, 
+             FrameStyle -> Directive[
+               Opacity[0.5], 
+               Thickness[Tiny], 
+               RGBColor[0.368417, 0.506779, 0.709798]], Background -> 
+             GrayLevel[0.94]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Input type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"Text\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Number of classes: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   TooltipBox["9", 
+                    TagBox[
+                    RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"ambivalent-right\"", ",", 
+                    "\"committed-conservatives\"", ",", 
+                    RowBox[{"\[LeftSkeleton]", "5", "\[RightSkeleton]"}], ",",
+                     "\"progressive-left\"", ",", "\"stressed-sideliners\""}],
+                     "}"}], Short[#, 1]& ]], Annotation[#, 
+                    
+                    Short[{"ambivalent-right", "committed-conservatives", 
+                    "democratic-mainstays", "establishment-liberals", 
+                    "faith-and-flag-conservatives", "outsider-left", 
+                    "populist-right", "progressive-left", 
+                    "stressed-sideliners"}, 1], "Tooltip"]& ], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Method: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"Markov\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                 "\"Number of training examples: \"", 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["9", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ClassifierFunction[<|
+   "ExampleNumber" -> 9, "ClassNumber" -> 9, 
+    "Input" -> <|
+     "Preprocessor" -> 
+      MachineLearning`MLProcessor[
+       "ToMLDataset", <|
+        "Input" -> <|"f1" -> <|"Type" -> "Text"|>|>, 
+         "Output" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+         "Preprocessor" -> 
+         MachineLearning`MLProcessor["Sequence", <|"Processors" -> {
+              MachineLearning`MLProcessor["List"], 
+              MachineLearning`MLProcessor[
+              "WrapMLDataset", <|
+               "FeatureTypes" -> {"Text"}, "FeatureKeys" -> {"f1"}, 
+                "FeatureWeights" -> Automatic, "ExampleWeights" -> Automatic, 
+                "RawExample" -> Missing["KeyAbsent", "RawExample"], 
+                "StructurePreserving" -> False|>]}|>], "ScalarFeature" -> 
+         True, "Invertibility" -> "Perfect", "StructurePreserving" -> False, 
+         "Missing" -> "Allowed"|>], "Processor" -> 
+      MachineLearning`MLProcessor[
+       "Sequence", <|
+        "Input" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+         "Output" -> <|
+          "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>, 
+         "Processors" -> {
+           MachineLearning`MLProcessor[
+           "SynthesizeMissingValues", <|
+            "Invertibility" -> "Perfect", "Missing" -> "Imputed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+             "Distribution" -> 
+             LearnedDistribution[<|
+               "ExampleNumber" -> 9, "Preprocessor" -> 
+                MachineLearning`MLProcessor[
+                 "ToMLDataset", <|
+                  "Input" -> <|"f1" -> <|"Type" -> "Text"|>|>, 
+                   "Output" -> <|
+                    "f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+                   "Preprocessor" -> MachineLearning`MLProcessor["Identity"], 
+                   "ScalarFeature" -> True, "Invertibility" -> "Perfect", 
+                   "StructurePreserving" -> False, "Missing" -> "Allowed"|>], 
+                "Processor" -> 
+                MachineLearning`MLProcessor[
+                 "Sequence", <|
+                  "Input" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+                   "Output" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                   "Processors" -> {
+                    MachineLearning`MLProcessor[
+                    "FeatureChangeType", <|
+                    "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+                    "StructurePreserving" -> True, 
+                    "Input" -> <|
+                    "f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+                    "Output" -> <|
+                    "f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+                    "Version" -> {14., 0}, "ID" -> 977354774366526235|>], 
+                    MachineLearning`MLProcessor[
+                    "ToVector", <|
+                    "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+                    "StructurePreserving" -> True, 
+                    "Input" -> <|
+                    "f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+                    "Output" -> <|
+                    "f1" -> <|"Type" -> "NominalVector", "Weight" -> 1|>|>, 
+                    "Version" -> {14., 0}, "ID" -> 5964736801689017400|>], 
+                    MachineLearning`MLProcessor[
+                    "IntegerEncodeNominalVector", <|
+                    "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+                    "StructurePreserving" -> True, 
+                    "Input" -> <|
+                    "f1" -> <|"Type" -> "NominalVector", "Weight" -> 1|>|>, 
+                    "Index" -> {<|"" -> 1|>}, "MissingCode" -> Indeterminate, 
+                    "Version" -> {14., 0}, "ID" -> 8928567103510828875, 
+                    "Output" -> <|
+                    "f1" -> <|"Type" -> "NominalVector", "Weight" -> 1|>|>|>], 
+                    MachineLearning`MLProcessor[
+                    "NumericalizeNominalVector", <|
+                    "Invertibility" -> "Approximate", "Missing" -> "Allowed", 
+                    "StructurePreserving" -> True, 
+                    "Input" -> <|
+                    "f1" -> <|
+                    "Type" -> "NominalVector", "Weight" -> 1, 
+                    "SetSize" -> {1}|>|>, "Boundaries" -> {{-0.5, 0.5}}, 
+                    "Version" -> {14., 0}, "ID" -> 5412181252758401233, 
+                    "Output" -> <|
+                    "f1" -> <|
+                    "Type" -> "NumericalVector", "Weight" -> 1|>|>|>]}, 
+                   "Invertibility" -> "Approximate", "StructurePreserving" -> 
+                   True, "Missing" -> "Allowed"|>], "PerformanceGoal" -> 
+                "DirectTraining", "BatchProcessing" -> Automatic, 
+                "Model" -> <|
+                 "RotationMatrix" -> {{1.}}, 
+                  "Precisions" -> {9.406220977804901}, "NoisePrecision" -> 
+                  None, "Processor" -> 
+                  MachineLearning`MLProcessor[
+                   "Center", <|
+                    "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+                    "StructurePreserving" -> True, 
+                    "Input" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                    "Mean" -> {-0.04984872113200572}, 
+                    "Output" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                    "Version" -> {14., 0}, "ID" -> 7449931630199862054|>], 
+                  "PostProcessor" -> 
+                  MachineLearning`MLProcessor[
+                   "FirstValues", <|
+                    "Info" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>, 
+                    "Key" -> "f1", "Invertibility" -> "Perfect", 
+                    "StructurePreserving" -> False, "Missing" -> "Allowed"|>],
+                   "Method" -> "Multinormal", 
+                  "Options" -> <|
+                   "CovarianceType" -> <|
+                    "Value" -> "Full", "Options" -> <||>|>, 
+                    "IntrinsicDimension" -> <|
+                    "Value" -> 1, "Options" -> <||>|>|>|>, 
+                "TrainingInformation" -> <|
+                 "Configurations" -> 
+                  Dataset[<|<|
+                    "Value" -> "Multinormal", 
+                    "Options" -> <|
+                    "CovarianceType" -> <|"Value" -> "Full"|>, 
+                    "IntrinsicDimension" -> <|"Value" -> "Heuristic"|>|>, 
+                    "NaiveImputer" -> 
+                    MachineLearning`MLProcessor[
+                    "ImputeMissing", <|
+                    "Invertibility" -> "Perfect", "Missing" -> "Imputed", 
+                    "StructurePreserving" -> True, 
+                    "Input" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                    "Mean" -> {-0.04984872113200571}, 
+                    "StandardDeviation" -> {0.32605616138554033`}, "Method" -> 
+                    "NaiveSampler", "VectorLength" -> 1, 
+                    "Output" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                    "Type" -> "NumericalVector", "Version" -> {14., 0}, "ID" -> 
+                    1141341796882961439|>], "EMIterations" -> 1|> -> <||>|>, 
+                    TypeSystem`Assoc[
+                    
+                    TypeSystem`Struct[{
+                    "Value", "Options", "NaiveImputer", "EMIterations"}, {
+                    TypeSystem`Atom[String], 
+                    TypeSystem`Assoc[
+                    TypeSystem`Atom[String], 
+                    TypeSystem`Struct[{"Value"}, {
+                    TypeSystem`Atom[String]}], 2], TypeSystem`AnyType, 
+                    TypeSystem`Atom[Integer]}], 
+                    TypeSystem`Assoc[
+                    TypeSystem`UnknownType, TypeSystem`UnknownType, 
+                    TypeSystem`AnyLength], 1], <||>], "BestModelInformation" -> 
+                  Dataset[<|
+                    "Configuration" -> {
+                    "Multinormal", "CovarianceType" -> "Full", 
+                    "IntrinsicDimension" -> "Heuristic"}, "ModelUtility" -> 
+                    Missing[]|>, 
+                    TypeSystem`Struct[{"Configuration", "ModelUtility"}, {
+                    TypeSystem`Tuple[{
+                    TypeSystem`Atom[String], TypeSystem`AnyType, 
+                    TypeSystem`AnyType}], TypeSystem`UnknownType}], <||>]|>, 
+                "NaiveImputer" -> 
+                MachineLearning`MLProcessor[
+                 "ImputeMissing", <|
+                  "Invertibility" -> "Perfect", "Missing" -> "Imputed", 
+                   "StructurePreserving" -> True, 
+                   "Input" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                   "Mean" -> {-0.04984872113200571}, 
+                   "StandardDeviation" -> {0.32605616138554033`}, "Method" -> 
+                   "NaiveSampler", "VectorLength" -> 1, 
+                   "Output" -> <|
+                    "f1" -> <|"Type" -> "NumericalVector", "Weight" -> 1|>|>, 
+                   "Type" -> "NumericalVector", "Version" -> {14., 0}, "ID" -> 
+                   1141341796882961439|>], "InputDimension" -> 0, 
+                "OutputDimension" -> 1, 
+                "Log" -> <|
+                 "Example" -> 
+                  MachineLearning`MLDataset[<|
+                    "f1" -> <|
+                    "Type" -> "Nominal", "Weight" -> 1, "Values" -> {""}, 
+                    "ID" -> 8130839677769070582|>|>, <|
+                    "ExampleNumber" -> 1, "ExampleWeights" -> 1, 
+                    "LogDensityRatios" -> 0, "RawExample" -> False|>], 
+                  "TrainingTime" -> 0.046475, "MaxTrainingMemory" -> 186360, 
+                  "DataMemory" -> 2128, "FunctionMemory" -> 41080, 
+                  "LanguageVersion" -> {14., 0}, "Date" -> 
+                  DateObject[{2024, 7, 5, 12, 2, 2.034989`7.061137054631603}, 
+                    "Instant", "Gregorian", -4.], "ProcessorCount" -> 8, 
+                  "ProcessorType" -> "ARM64", "OperatingSystem" -> "MacOSX", 
+                  "SystemWordLength" -> 64, "Evaluations" -> {}|>, 
+                "LogPDFDistribution" -> 
+                MachineLearning`TailedQuantileDistribution[<|
+                  "Quantiles" -> {-0.34445991385910424`, \
+-0.34445991385910424`, -0.32809757642250875`, -0.3132288777284276, \
+-0.17254074615073894`, -0.08964095508986829, -0.06033059164710832, \
+-0.05696267964021268, 0.1059130645059797, 0.12916155999144552`, 
+                    0.17133766557747893`}, 
+                   "LeftBoundary" -> -0.32809757642250875`, "LeftScale" -> 
+                   0.008181168718297743, "LeftTailNorm" -> 0.2|>], "Entropy" -> 
+                Around[0.09588490504630647, 0.06095727557758399], 
+                "EntropySampleSize" -> 10|>], 
+             "Output" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+             "EvaluationStrategy" -> "ModeFinding", "Version" -> {14., 0}, 
+             "ID" -> 4270897793735380344|>], 
+           MachineLearning`MLProcessor[
+           "ToLowerCase", <|
+            "Invertibility" -> "Approximate", "Missing" -> "Allowed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+             "Version" -> {14., 0}, "ID" -> 3288521766005748305, 
+             "Output" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>|>], 
+           MachineLearning`MLProcessor[
+           "RemoveDiacritics", <|
+            "Invertibility" -> "Approximate", "Missing" -> "Allowed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+             "Version" -> {14., 0}, "ID" -> 4915787944086918060, 
+             "Output" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>|>], 
+           MachineLearning`MLProcessor[
+           "TextToNominalSequence", <|
+            "Invertibility" -> "Perfect", "Missing" -> "Forbidden", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|"f1" -> <|"Type" -> "Text", "Weight" -> 1|>|>, 
+             "Tokens" -> {{
+               " ", "\n", "\t", "\:f39f", ",", ".", "!", "?", "\"", "'", "(", 
+                ")", "$", "%", "&", "@", "*", "-", "+", "[", "]", "{", "}", 
+                "|", "\\", ">", "/", "~", "`", "#", "^"}, {
+               ":)", ":-)", ":D", ":-D", ";)", ";-)", "<3", ":p", ":-p", ":P",
+                 ":-P", ":(", ":-(", "=(", ":/", ":-/", "</3"}, {
+               "=", "<", ";", ":"}}, "Method" -> "WordSegment", 
+             "Version" -> {14., 0}, "ID" -> 8661128169745179370, 
+             "Output" -> <|
+              "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>|>], 
+           MachineLearning`MLProcessor[
+           "NoninvertibleIntegerEncodeNominalSequence", <|
+            "Invertibility" -> "Impossible", "Missing" -> "Imputed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|
+              "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>, 
+             "Index" -> MachineLearning`SortedHashAssociation[<|
+               "KeyHashes" -> CompressedData["
+1:eJxVnUnSBctNhT1gAWCzARZARPbNEl4EI5bAgAhGDMwm2DXnOyXlfdjwbCvr
+VmWjVHuk/1/+47///T//9x/+8pe/6///8m//9ff/+eOf9V/+9bZyar19j1bH
+aveWEQN1j7PXXG3fuva4s+VAu6N3Pdk0UHYtPQbKvfeMq+G57uqn1Bw4d+4+
+b1urltPPKW+gjXnr1ceufrd+rzr1nDObhmudbd6ZA3OVetbW0O3l7DHeQJ/j
+tDJqW/qQHnkDen8ffuVoc5b2GxCpdq1Ca+laUg6MXpvWMbQdd+sf7xe1H820
+6//0Kq39/aL0raWtOfqqbZ8VKz93be1urWu0LXI5Mwf63pW19HP30KRGDrRT
+1xplzDHa0C9XDmjnyu6rjLu1tWfGXp1zx1in9bq6RtbY8w20tXVuY59d5jx9
+/wZKv9qpu/mPfVoOnL21kr7nHaf02ksOrLOrJqXPcranvFf1UVbrpQ7t4D5v
+2zWg82hVRJ1SqW3mlhwxVDlrFZHm1PffOlrX/4mJatPRa9verKr2cRZWvVpZ
+YpYY0GTv1d7dsXVkU+/NAT3edm/z6D+nDuE30ETcZ46lM577rWPrNE+9s+v9
+V2f7+0bXy8WdnZ9qcL5Xabql6SBOLbMVHX4OlCsWEDtpRjr43vIEtXHa9wZ/
+ik+7rkgO6ESqNlyXpOuR1t8vzhg6oKUNEJ/oDt4cWIedE0uMpvdqcjmgSbG7
+2sGuE6tv27Ve3c6qpXAJ5p7JcEuzX3pFKWNrGbfnrKZOZGhGHIdm8dsrOEnT
+1WWTBLi95jU4c00diaasQ9dejrdXU7/XUcxeS9Gv186jFXNq+4Z4doqpxErv
+G1W7CD9OvUy3t58Y0CYMbavYcU+tc9Vc4IB5uDQa1Lm0mueh26FP6+roeQmU
+NX4Do5TtT88hTp358VH61AXcHFjlg+0NNBavi6mrqN89vhql7sYvRhODcYox
+0HUHy6oSY7o7609MLUkiFti66pJ6YtWWr+p6VhzQm/7LlJAaebS9XUusLcHc
+Kv98A4tXs1Vd0rLuPEFdpnkqe3EkSba+FAO6+HrBlfBuWqgO9A1wN4oOSdui
+3/z4qkngDXGpFMKeVVPLvWIrxJ1F3Lna1BG8X3T0gGSM9rbp6o76G6hjcPvY
+k/tjH+3Blb4RC+paWYrngB4WW5dd2DWdf04XltYGDa6H5J8uVw5IQZwqlSDe
+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
+                 "], "Values" -> None, "DefaultValue" -> -1, "HashFunction" -> 
+                Function[{
+                  
+                  MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$}, 
+                  Switch[
+                  MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$, {
+                    BlankSequence[String]}, 
+                   Data`StringHash[
+                   MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, "Murmur3-64"], 
+                   PatternTest[
+                    Blank[], 
+                    MachineLearning`PackageScope`PackedArrayQ[#, Integer, 
+                    1]& ], MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 
+                   PatternTest[
+                    Blank[], 
+                    MachineLearning`PackageScope`PackedArrayQ[#, Integer, 
+                    2]& ], 
+                   
+                   Block[{MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q}, 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = {
+                    Quotient[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^48], 
+                    Quotient[
+                    Mod[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^48], 2^32], 
+                    Quotient[
+                    Mod[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^32], 2^16], 
+                    Mod[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^16]}; 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = Transpose[
+                    MachineLearning`PackageScope`ToPackedArray[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q], {1, 3, 2}]; 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = Transpose[
+                    Flatten[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q, 1]]; Data`StringHash[
+                    FromCharacterCode[
+                    Abs[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q]], "Murmur3-64"]], 
+                   Blank[List], 
+                   Map[Switch[#, 
+                    Blank[String], 
+                    Data`StringHash[#, "Murmur3-64"], 
+                    PatternTest[
+                    Blank[], Developer`MachineIntegerQ], #, {
+                    PatternTest[
+                    BlankSequence[], Developer`MachineIntegerQ]}, 
+                    
+                    Block[{MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q}, 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = {
+                    Quotient[#, 2^48], 
+                    Quotient[
+                    Mod[#, 2^48], 2^32], 
+                    Quotient[
+                    Mod[#, 2^32], 2^16], 
+                    Mod[#, 2^16]}; 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = Flatten[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q]; Data`StringHash[
+                    FromCharacterCode[
+                    Abs[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q]], "Murmur3-64"]], 
+                    Blank[], 
+                    Data`StringHash[
+                    ToString[#, InputForm] <> "Cn.i9)P$", "Murmur3-64"]]& , 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$]]], "Version" -> {14., 0}|>], "MissingCode" -> 0, 
+             "Version" -> {14., 0}, "ID" -> 2954878381358838009, 
+             "Output" -> <|
+              "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>|>]}, 
+         "Invertibility" -> "Impossible", "StructurePreserving" -> True, 
+         "Missing" -> "Imputed"|>]|>, 
+    "Output" -> <|
+     "Preprocessor" -> 
+      MachineLearning`MLProcessor[
+       "ToMLDataset", <|
+        "Input" -> <|"f1" -> <|"Type" -> "Nominal"|>|>, 
+         "Output" -> <|"f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+         "Preprocessor" -> 
+         MachineLearning`MLProcessor["Sequence", <|"Processors" -> {
+              MachineLearning`MLProcessor["List"], 
+              MachineLearning`MLProcessor[
+              "WrapMLDataset", <|
+               "FeatureTypes" -> {"Nominal"}, "FeatureKeys" -> {"f1"}, 
+                "FeatureWeights" -> Automatic, "ExampleWeights" -> Automatic, 
+                "RawExample" -> Missing["KeyAbsent", "RawExample"], 
+                "StructurePreserving" -> False|>]}|>], "ScalarFeature" -> 
+         True, "Invertibility" -> "Perfect", "StructurePreserving" -> False, 
+         "Missing" -> "Allowed"|>], "Processor" -> 
+      MachineLearning`MLProcessor[
+       "Sequence", <|
+        "Input" -> <|"f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+         "Output" -> <|"f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+         "Processors" -> {
+           MachineLearning`MLProcessor[
+           "ToVector", <|
+            "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|"f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+             "Output" -> <|
+              "f1" -> <|"Type" -> "NominalVector", "Weight" -> 1|>|>, 
+             "Version" -> {14., 0}, "ID" -> 4092989631127094742|>], 
+           MachineLearning`MLProcessor[
+           "IntegerEncodeNominalVector", <|
+            "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|
+              "f1" -> <|"Type" -> "NominalVector", "Weight" -> 1|>|>, 
+             "Index" -> {<|
+               "ambivalent-right" -> 1, "committed-conservatives" -> 2, 
+                "democratic-mainstays" -> 3, "establishment-liberals" -> 4, 
+                "faith-and-flag-conservatives" -> 5, "outsider-left" -> 6, 
+                "populist-right" -> 7, "progressive-left" -> 8, 
+                "stressed-sideliners" -> 9|>}, "MissingCode" -> 0, 
+             "Version" -> {14., 0}, "ID" -> 6559455146238795659, 
+             "Output" -> <|
+              "f1" -> <|"Type" -> "NominalVector", "Weight" -> 1|>|>|>], 
+           MachineLearning`MLProcessor[
+           "FromVector", <|
+            "Invertibility" -> "Perfect", "Missing" -> "Allowed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|
+              "f1" -> <|
+                "Type" -> "NominalVector", "Weight" -> 1, 
+                 "SetSize" -> {9}|>|>, 
+             "Output" -> <|"f1" -> <|"Type" -> "Nominal", "Weight" -> 1|>|>, 
+             "Version" -> {14., 0}, "ID" -> 1356584569036110888|>], 
+           MachineLearning`MLProcessor[
+           "FirstValues", <|
+            "Info" -> <|"Type" -> "Nominal", "Weight" -> 1, "SetSize" -> 9|>, 
+             "Key" -> "f1", "Invertibility" -> "Perfect", 
+             "StructurePreserving" -> False, "Missing" -> "Allowed"|>]}, 
+         "Invertibility" -> "Perfect", "StructurePreserving" -> False, 
+         "Missing" -> "Allowed"|>], "ProbabilityPostprocessor" -> Identity, 
+      "Name" -> "class", 
+      "Marginal" -> <|
+       "ambivalent-right" -> 0.1111111111111111, "committed-conservatives" -> 
+        0.1111111111111111, "democratic-mainstays" -> 0.1111111111111111, 
+        "establishment-liberals" -> 0.1111111111111111, 
+        "faith-and-flag-conservatives" -> 0.1111111111111111, "outsider-left" -> 
+        0.1111111111111111, "populist-right" -> 0.1111111111111111, 
+        "progressive-left" -> 0.1111111111111111, "stressed-sideliners" -> 
+        0.1111111111111111|>|>, "LabelSplitter" -> 
+    MachineLearning`MLProcessor[
+     "FeatureLabelSplit", <|
+      "Processor" -> MachineLearning`MLProcessor["ListSplit"], 
+       "PreferLabeled" -> True, "KeepLabelsFormat" -> False|>], 
+    "RecalibrationFunction" -> None, "ImputationStrategy" -> Automatic, 
+    "Prior" -> Automatic, "Utility" -> 
+    SparseArray[
+     Automatic, {9, 10}, 0., {
+      1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{2}, {3}, {4}, {5}, {6}, {7}, {
+        8}, {9}, {10}}}, {1., 1., 1., 1., 1., 1., 1., 1., 1.}}], "Threshold" -> 
+    0, "TieBreaker" -> RandomChoice, "PerformanceGoal" -> Automatic, 
+    "BatchProcessing" -> Automatic, 
+    "Model" -> <|
+     "ClassPriors" -> <|
+       1 -> 0.1111111111111111, 2 -> 0.1111111111111111, 3 -> 
+        0.1111111111111111, 4 -> 0.1111111111111111, 5 -> 0.1111111111111111, 
+        6 -> 0.1111111111111111, 7 -> 0.1111111111111111, 8 -> 
+        0.1111111111111111, 9 -> 0.1111111111111111|>, 
+      "LogCounts" -> CompressedData["
+1:eJzVXWmMX1UVn65MZ6YtoCzS1kYjCkXURElEmswjwZgUkyqKpaIBKZNAXbC0
+CAqySbSSYDQIKYtChBK2pFWkLCptQBFjECvLh6GRKDFCCjYDRAkSqh/mPJLf
+Pydnuefc9/h/uXnvf99dz37POfddp511wsTMoaGhy2cPDc37f/mDNaN3bz5z
+5g6ufP6mhdd95Cv3jmOJ/3Pfbb167cTOf70+vvCWq8ZXPfDP8ZVPPL/kui/s
+bdvZc8G2Z8f2jjbacUj1or87Z/LaA9fv99rAPLCk/7Gk/7XrKY0b+8V2Pj7y
++C0XX/nv9hnrSf1w4xP3+ZSbf3H4r4cG9pHG075f8cgPdzw0PFDvd7+8bPiQ
+l2Y1tG63r1x6330/nt3gfHE/6BnXuRQuqF3vOmnxRDsunPcBf13z0EEXz2wu
+2THn8HXHzmo+tOvC7//o9hkN7QPCH9XX9i/BTWlZ2i6HV1w/+y//wwufP+Ql
+9X5J/WnppXb+telbVPvZ/Wf1Fz1uCe/xPcEjSycrz6cveK6tL+G/FV+z8RDH
+g/vfNV5F9a+lf13BjXffs+kzyjn4nvg50gl6JrnaO1+vfBKFd1Gl1D/Ki9y6
+Uz3E0yh6Ubou1n45ec6rh2SVEl3Mpl9auobyZDReafFLy3ckfTJ6/bj14uid
+dd+j11X6ntO3OfzB+tZ9yyqz8BzxgZNncb/7Lid4S6s9wjpOhDsJvkr1C+v8
+utLTtHqYVf/vCq66lkuj4TRrXbz45l1fa/+lcg3HT7l+S+mP1F50+1Hww9HD
+7PGVvrfSsehxaeE0S2+uRee4Z07Py9LHouiTd3+i6T8nf5TiIe6LpI9L+5gt
+l1npaG34iIavrvuT9Eyym0Wvf7b8JMmnCM9a+0603MvpFRzeSXYU63l17f3T
+rmMtPcNK7zn+XtseEc3vvets7Sfaz8A7TpT/uXmTHTtqfaL0rih+EM2Pvedy
+3HvJLqOlH9F4V0pHtO32VU/MhqsseMeSswNY5XKOjtQ+z+P2gTv3rKWfWb8n
+uZP2h/yv5ux/6sNPLdun2fXGSVOvbtpnwG+L/ie/Lon+18IzhAuazwDegX8f
++nvWgiNre7Xk+ex5WeHA6kfXVzrY132Kmp8k50n00zsu1C+R7tIzyZlUWs+b
+uoYHLX5QKdmhrPjI+aMgH+bsYd7zPQmOOL8YCS61crRVbvTqu6V8oLb8EN1O
+bbuDVe/Nlrej2kd5m/BOivOQzuui1j2a7pFcSs/rp+696IyLRtvntX86/qs/
+f26skfDaWkbBNe4PxufQ9ySnkjzO+f+Vwo12fqXnUbXpHKc3orzAwa9Xf+X8
+N0v5xsDztF4j8ans853a8mlf7CDZ7eH3RPcID9u4qukS/a6JXuCzV79Cec5K
+Jzk4lfwSJXqDeI3yPq0PrQOVGLcm+atL9Dw7fkK7ftx3/91w68iypfOb2RtP
+Peuby0cbej7y6r9v/vC5Y83OiZWP37ZlpP3/uZlbnlk/MdLahYjPYv+od+H5
+Jgc/XrqnhbOu7XASf5HgiONfWvnL6v+F7aNe5V1v/B/PfwjvUB7l9Moo/YlK
+Du8l/dcrP5fCX6m8LukF3v0ulQe1cele+UOin9K+c3DwrfFltx55zrzmg2Nb
+5q57ZF4zdc0rj85YPtasHR8/+ugdow39f8kZT08OHzO3Ofau5snT3jmvIfmN
+6nHzLvU/IDou8acsOTEaTqLHH2WH0dLdUv4RRWei9Xgv/ajNp7nSG5cUPd5S
+fiCdv1rnY40zipon7ovkd8mVKO9z+gYX/2XVa2rDRbTdpKv5RY+7dv9dzdsK
+p9n7yel/Ukn5dVp7KOjt5H+AehLl6bGe63cNP9p6nN3FOz6k+9FxeNZ1ssYt
+c3Qf/VuoJLhAuzvaK7j8Slq5qJYcEwWHtemcpAdYy67yOmj3v1Sf4uCZa5+z
+SyDcYztIN5G+RttbOHpkPW+R+tH6Q0TNQ2sHs9JnL3xy+CL57UjfSfOR7Cmc
+viXRWYRf9DPhvke6LsGz5IeqPd/L3mfrekt6bi07g5euSnAi7VsUHkv0N4u/
+lH5Xyw6HfITW6eBDX1q76bwFrR2U6m3fuHn77tOHW/8N+p87p2/PP0HPQDs+
+PVvhXeI7UftK521WvzQtHYvax6j2tXEnEt3l2ufWg7P/UIl+Nag3cPGaWF/i
+b6XrJtE3Sd7R+i966XNXfMS6ztK64DpS/APGS+B5DtkhyI7x4OTWvefPGG7L
+6PXx4q+kR1vxWLtfUfqRVS8vpWtWecOKL7XggBu/RHdL8duqj1jHWWt9JT6E
+/ZLfJtrXUH5BP1DUx0vldWyHO2+mc2ocf5Z8KMn10fRI6t+KR9z6or9ua9ee
+tmfT/618Mf2e7NtSnvco/Le2E+V3bF3XaPzOkk+0/njZ9CrKDsXxA6k/hBOC
+dwlftaUU38DBLY4vmg5Z6ZMVLqLii7Xfa+3A3P5H5/XI2h/t+Ve2f5G1nej1
+kPBAiv/g5BWplOyUVn3Dyu+s8m8UfGjHWYuP4H0umAeA5BPSg9FvfvXkVavv
+vmdO6y+O7ZB+jHoyleQPSf1x8jTabXD+6E8cvW6l68zRce7+DS0cZulDXnnB
+255k9+P4N0fPuXoSnZLonJWu4X0JBOcYp47+CBi/g+PS2iGkelb6leUPWcs+
+EqX/ZeMT1efuiUD7NMph6AdQa91L5bzs/bf2m0VHs+dbqm8hX6I4B7IXUUl2
+cIo3IL5O9nI676LnbDtd3+AnG468dI9rr5Z/Ve396mqfoubptcNF0WOtfFca
+t5Q9v6j+US9Bv1K0h5DcR/qT11+6dD5auZGz7+A+S3J5Fp5E8W0JTrPsP5Le
+wLXj9f+wjkeCG+132fgv0Umpv1J/0VK9V8IHbxyAF7+65stcPgfOnxmfs/Wd
+bPk1G68lfyJJTuTsG1wcHcb9c/Wi94Prj+NrSA+0cYfc+njtkFnyY9ftaPlb
+qd0zCv+89kCuXcQHLq9X9P1M9H6/h//403N2LmjzvFBel8kPfOcnd65Y0OaD
+Wf3irCvWHzzStPnU3vHyit0rFzZ7Ltj27Nje0QbxCu322fuWrT9w89DuCzc/
+iY9b7cta+qedH/cs4W1X+peV/5WOw+rHXAsuo9Y3Wy7CvFvo90b40Z4/wjli
+qVzn5TsoD0h5FrT4Woo/WvjrSp63jkcaJ56LSv49kn+3NP6s+2m0+54d5+Gd
+V2k9KX6Vi6ug+pKfJNc++utT/NFRe/725Lptc1u5iPwd6LziY8fdcuon/jMy
+4M/vhQetfmX1f8b2sV6bfwrwqTadKKVTWfyvdHylcpCEL7X0N4l/cX6BVn6m
+rVfL/y4brrrCE2s8nVcutu5/aZwu9702rwgH71r5Trt+aL/k+ByeH+F7PEdf
+dtzS3/5q61irl5MfHfExen7fZ04++ejPzm/zFEr0J0vv4PIQd4VfUXEN2fov
++VOgHoQl5oNu/cqm30fTtWj910zv4H6n0v61eQSs8ph1/aL0OKueET2fqPGV
+7l9XeOv9Pms9tOsunZdIeguHP8jPkB9w9fB+DO86ZsFn13qTdt+t87XSvVL6
+yfFja/54775KcB5Fr6z6l3e/SukGrju3T5ycTHZdsveS/ILxJZhvg+wzktyC
+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
+       "], 
+      "LogNorms" -> {7.969778303861831, 7.743363408493811, 7.919434769391409, 
+       7.9172507393891856`, 7.94916777648368, 7.781646147154931, 
+       7.821729770441356, 8.0772037480878, 7.858724152907593}, 
+      "VocabularyPosition" -> 
+      MachineLearning`SortedHashAssociation[<|"KeyHashes" -> CompressedData["
+1:eJwl2NMSGAgSAMDYtm3btm3btm3btm3uxrZt29xcp+6ha2o+YJiwUftK7QIG
+CBBgZJAAAf7GQARGGiAowQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovY
+xCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9zk
+IS/5yE8BClKIwhShKMUoTglKUorSlKEs5ShPBSpSicpUoSrVqE4NalKL2tSh
+LvWoTwMa0ojGNKEpzWhOC1rSita0oS3taE8HOtKJznShK93oTg960ove9KEv
+/ejPAAYyiMEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jODGYyi9nMYS7z
+mM8CFrKIxSxhKctYzgpWsorVrGEt61jPBjayic1sYSvb2M4OdrKL3exhL/vY
+zz/8ywEOcojDHOEoxzjOCU5yitOc4SznOM8FLnKJy1zhKte4zg1ucovb3OEu
+97jPAx7yiMc84SnPeM4LXvKK17zhLe94zwc+8onPfOEr3/jOD37yi9/8xx/+
+Fn9AAhGYIAQlGMEJQUhCEZowhCUc4YlARCIRmShEJRrRiUFMYhGbOMQlHvFJ
+QEISkZgkJCUZyUlBSlKRmjSkJR3pyUBGMpGZLGQlG9nJQU5ykZs85CUf+SlA
+QQpRmCIUpRjFKUFJSlGaMpSlHOWpQEUqUZkqVKUa1alBTWpRmzrUpR71aUBD
+GtGYJjSlGc1pQUta0Zo2tOVv825PBzrSic50oSvd6E4PetKL3vShL/3ozwAG
+MojBDGEowxjOCEYyitGMYSzjGM8EJjKJyUxhKtOYzgxmMovZzGEu85jPAhay
+iMUsYSnLWM4KVrKK1axhLetYzwY2sonNbGEr29jODnayi93sYS/72M8//MsB
+DnKIwxzhKMc4zglOcorTnOEs5zjPBS5yictc4SrXuM4NbnKL29zhLve4zwMe
+8ojHPOEpz3jOC17yite84S3veM8HPvKJz3zhK9/4zg9+8ovf/Mcf/g7+gAQi
+MEEISjCCE4KQhCI0YQhLOMITgYhEIjJRiEo0ohODmMQiNnGISzzik4CEJCIx
+SUhKMpKTgpSkIjVpSEs60pOBjGQiM1nISjayk4Oc5CI3echLPvJTgIIUojBF
+KEoxilOCkpSiNGUoSznKU4GKVKIyVahKNapTg5rUojZ1qEs96tOAhjSiMU1o
+SjOa04KWtKI1bWhLO9rTgY50ojNd6Eo3utODnvSiN33oSz/6M4CBDGIwQxjK
+MIYzgpGMYjRjGMs4xjOBiUxiMlOYyjSmM4OZzGI2c5jLPOazgIUsYjFLWMoy
+lrOClaxiNWtYyzrWs4GNbGIzW9jKNrazg53sYjd72Ms+9vMP/3KAgxziMEc4
+yjGOc4KTnOI0ZzjLOc5zgYtc4jJXuMo1rnODm9ziNne4yz3u84CHPOIxT3jK
+M57zgpe84jVveMs73vOBj3ziM1/4yje+84Of/OI3//GHv0t/QAIRmCAEJRjB
+CUFIQhGaMIQlHOGJQEQiEZkoRCUa0YlBTGIRmzjEJR7xSUBCEpGYJCQlGclJ
+QUpSkZo0pCUd6clARjKRmSxkJRvZyUFOcpGbPOQlH/kpQEEKUZgiFKUYxSlB
+SUpRmjKUpRzlqUBFKlGZKlSlGtWpQU1qUZs61KUe9WlAQxrRmCY0pRnNaUFL
+WtGaNrSlHe3pQEc60ZkudKUb3elBT3rRmz70pR/9GcBABjGYIQxlGMMZwUhG
+MZoxjGUc45nARCYxmSlMZRrTmcFMZjGbOcxlHvNZwEIWsZglLGUZy1nBSlax
+mjWsZR3r2cBGNrGZLWxlG9vZwU52sZs97GUf+/mHfznAQQ5xmCMc5RjHOcFJ
+TnGaM5zlHOe5wEUucZkrXOUa17nBTW5xmzvc5R73ecBDHvGYJzzlGc95wUte
+8Zo3vOUd7/nARz7xmS985Rvf+cFPfvGb//jD34M/IIEITBCCEozghCAkoQhN
+GMISjvBEICKRiEwUohKN6MQgJrGITRziEo/4JCAhiUhMEpKSjOSkICWpSE0a
+0pKO9GQgI5nITBayko3s5CAnuchNHvKSj/wUoCCFKEwRilKM4pSgJKUoTRnK
+Uo7yVKAilahMFapSjerUoCa1qE0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rS
+jvZ0oCOd6EwXutKN7vSgJ73oTR/60o/+DGAggxjMEIYyjOGMCPL/H9H/AHin
+LXQ=
+          "], "Values" -> None, "DefaultValue" -> -1, "HashFunction" -> 
+         Function[{
+           MachineLearning`file163SortedHashAssociation`PackagePrivate`keys$}, 
+           Switch[
+           MachineLearning`file163SortedHashAssociation`PackagePrivate`keys$, {
+             BlankSequence[String]}, 
+            Data`StringHash[
+            MachineLearning`file163SortedHashAssociation`PackagePrivate`keys$,
+              "Murmur3-64"], 
+            PatternTest[
+             Blank[], 
+             MachineLearning`PackageScope`PackedArrayQ[#, Integer, 1]& ], 
+            MachineLearning`file163SortedHashAssociation`PackagePrivate`keys$, 
+            PatternTest[
+             Blank[], 
+             MachineLearning`PackageScope`PackedArrayQ[#, Integer, 2]& ], 
+            
+            Block[{MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q}, 
+             MachineLearning`file163SortedHashAssociation`PackagePrivate`q = {
+               
+                Quotient[
+                MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$, 2^48], 
+                Quotient[
+                 Mod[
+                 MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$, 2^48], 2^32], 
+                Quotient[
+                 Mod[
+                 MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$, 2^32], 2^16], 
+                Mod[
+                MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$, 2^16]}; 
+             MachineLearning`file163SortedHashAssociation`PackagePrivate`q = 
+              Transpose[
+                MachineLearning`PackageScope`ToPackedArray[
+                MachineLearning`file163SortedHashAssociation`PackagePrivate`q]\
+, {1, 3, 2}]; 
+             MachineLearning`file163SortedHashAssociation`PackagePrivate`q = 
+              Transpose[
+                Flatten[
+                MachineLearning`file163SortedHashAssociation`PackagePrivate`q,
+                  1]]; Data`StringHash[
+               FromCharacterCode[
+                Abs[
+                MachineLearning`file163SortedHashAssociation`PackagePrivate`q]\
+], "Murmur3-64"]], 
+            Blank[List], 
+            Map[Switch[#, 
+              Blank[String], 
+              Data`StringHash[#, "Murmur3-64"], 
+              PatternTest[
+               Blank[], Developer`MachineIntegerQ], #, {
+               PatternTest[
+                BlankSequence[], Developer`MachineIntegerQ]}, 
+              
+              Block[{MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q}, 
+               MachineLearning`file163SortedHashAssociation`PackagePrivate`q = {
+                  Quotient[#, 2^48], 
+                  Quotient[
+                   Mod[#, 2^48], 2^32], 
+                  Quotient[
+                   Mod[#, 2^32], 2^16], 
+                  Mod[#, 2^16]}; 
+               MachineLearning`file163SortedHashAssociation`PackagePrivate`q = 
+                Flatten[
+                 MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+q]; Data`StringHash[
+                 FromCharacterCode[
+                  Abs[
+                  MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+q]], "Murmur3-64"]], 
+              Blank[], 
+              Data`StringHash[
+              ToString[#, InputForm] <> "Cn.i9)P$", "Murmur3-64"]]& , 
+             MachineLearning`file163SortedHashAssociation`PackagePrivate`keys$\
+]]], "Version" -> {14., 0}|>], "Processor" -> 
+      MachineLearning`MLProcessor[
+       "Sequence", <|
+        "Input" -> <|"f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>,
+          "Output" -> <|
+          "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>, 
+         "Processors" -> {
+           MachineLearning`MLProcessor[
+           "NoninvertibleIntegerEncodeNominalSequence", <|
+            "Invertibility" -> "Impossible", "Missing" -> "Imputed", 
+             "StructurePreserving" -> True, 
+             "Input" -> <|
+              "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>, 
+             "Index" -> MachineLearning`SortedHashAssociation[<|
+               "KeyHashes" -> CompressedData["
+1:eJwl2NMSGAgSAMDYtm3btm3btm3btm3uxrZt29xcp+6ha2o+YJiwUftK7QIG
+CBBgZJAAAf7GQARGGiAowQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovY
+xCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9zk
+IS/5yE8BClKIwhShKMUoTglKUorSlKEs5ShPBSpSicpUoSrVqE4NalKL2tSh
+LvWoTwMa0ojGNKEpzWhOC1rSita0oS3taE8HOtKJznShK93oTg960ove9KEv
+/ejPAAYyiMEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jODGYyi9nMYS7z
+mM8CFrKIxSxhKctYzgpWsorVrGEt61jPBjayic1sYSvb2M4OdrKL3exhL/vY
+zz/8ywEOcojDHOEoxzjOCU5yitOc4SznOM8FLnKJy1zhKte4zg1ucovb3OEu
+97jPAx7yiMc84SnPeM4LXvKK17zhLe94zwc+8onPfOEr3/jOD37yi9/8xx/+
+Fn9AAhGYIAQlGMEJQUhCEZowhCUc4YlARCIRmShEJRrRiUFMYhGbOMQlHvFJ
+QEISkZgkJCUZyUlBSlKRmjSkJR3pyUBGMpGZLGQlG9nJQU5ykZs85CUf+SlA
+QQpRmCIUpRjFKUFJSlGaMpSlHOWpQEUqUZkqVKUa1alBTWpRmzrUpR71aUBD
+GtGYJjSlGc1pQUta0Zo2tOVv825PBzrSic50oSvd6E4PetKL3vShL/3ozwAG
+MojBDGEowxjOCEYyitGMYSzjGM8EJjKJyUxhKtOYzgxmMovZzGEu85jPAhay
+iMUsYSnLWM4KVrKK1axhLetYzwY2sonNbGEr29jODnayi93sYS/72M8//MsB
+DnKIwxzhKMc4zglOcorTnOEs5zjPBS5yictc4SrXuM4NbnKL29zhLve4zwMe
+8ojHPOEpz3jOC17yite84S3veM8HPvKJz3zhK9/4zg9+8ovf/Mcf/g7+gAQi
+MEEISjCCE4KQhCI0YQhLOMITgYhEIjJRiEo0ohODmMQiNnGISzzik4CEJCIx
+SUhKMpKTgpSkIjVpSEs60pOBjGQiM1nISjayk4Oc5CI3echLPvJTgIIUojBF
+KEoxilOCkpSiNGUoSznKU4GKVKIyVahKNapTg5rUojZ1qEs96tOAhjSiMU1o
+SjOa04KWtKI1bWhLO9rTgY50ojNd6Eo3utODnvSiN33oSz/6M4CBDGIwQxjK
+MIYzgpGMYjRjGMs4xjOBiUxiMlOYyjSmM4OZzGI2c5jLPOazgIUsYjFLWMoy
+lrOClaxiNWtYyzrWs4GNbGIzW9jKNrazg53sYjd72Ms+9vMP/3KAgxziMEc4
+yjGOc4KTnOI0ZzjLOc5zgYtc4jJXuMo1rnODm9ziNne4yz3u84CHPOIxT3jK
+M57zgpe84jVveMs73vOBj3ziM1/4yje+84Of/OI3//GHv0t/QAIRmCAEJRjB
+CUFIQhGaMIQlHOGJQEQiEZkoRCUa0YlBTGIRmzjEJR7xSUBCEpGYJCQlGclJ
+QUpSkZo0pCUd6clARjKRmSxkJRvZyUFOcpGbPOQlH/kpQEEKUZgiFKUYxSlB
+SUpRmjKUpRzlqUBFKlGZKlSlGtWpQU1qUZs61KUe9WlAQxrRmCY0pRnNaUFL
+WtGaNrSlHe3pQEc60ZkudKUb3elBT3rRmz70pR/9GcBABjGYIQxlGMMZwUhG
+MZoxjGUc45nARCYxmSlMZRrTmcFMZjGbOcxlHvNZwEIWsZglLGUZy1nBSlax
+mjWsZR3r2cBGNrGZLWxlG9vZwU52sZs97GUf+/mHfznAQQ5xmCMc5RjHOcFJ
+TnGaM5zlHOe5wEUucZkrXOUa17nBTW5xmzvc5R73ecBDHvGYJzzlGc95wUte
+8Zo3vOUd7/nARz7xmS985Rvf+cFPfvGb//jD34M/IIEITBCCEozghCAkoQhN
+GMISjvBEICKRiEwUohKN6MQgJrGITRziEo/4JCAhiUhMEpKSjOSkICWpSE0a
+0pKO9GQgI5nITBayko3s5CAnuchNHvKSj/wUoCCFKEwRilKM4pSgJKUoTRnK
+Uo7yVKAilahMFapSjerUoCa1qE0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rS
+jvZ0oCOd6EwXutKN7vSgJ73oTR/60o/+DGAggxjMEIYyjOGMCPL/H9H/AHin
+LXQ=
+                 "], "Values" -> None, "DefaultValue" -> -1, "HashFunction" -> 
+                Function[{
+                  MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$}, 
+                  Switch[
+                  MachineLearning`file163SortedHashAssociation`PackagePrivate`\
+keys$, {
+                    BlankSequence[String]}, 
+                   Data`StringHash[
+                   MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, "Murmur3-64"], 
+                   PatternTest[
+                    Blank[], 
+                    MachineLearning`PackageScope`PackedArrayQ[#, Integer, 
+                    1]& ], 
+                   MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 
+                   PatternTest[
+                    Blank[], 
+                    MachineLearning`PackageScope`PackedArrayQ[#, Integer, 
+                    2]& ], 
+                   
+                   Block[{MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q}, 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = {
+                    Quotient[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^48], 
+                    Quotient[
+                    Mod[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^48], 2^32], 
+                    Quotient[
+                    Mod[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^32], 2^16], 
+                    Mod[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$, 2^16]}; 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = Transpose[
+                    MachineLearning`PackageScope`ToPackedArray[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q], {1, 3, 2}]; 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = Transpose[
+                    Flatten[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q, 1]]; Data`StringHash[
+                    FromCharacterCode[
+                    Abs[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q]], "Murmur3-64"]], 
+                   Blank[List], 
+                   Map[Switch[#, 
+                    Blank[String], 
+                    Data`StringHash[#, "Murmur3-64"], 
+                    PatternTest[
+                    Blank[], Developer`MachineIntegerQ], #, {
+                    PatternTest[
+                    BlankSequence[], Developer`MachineIntegerQ]}, 
+                    
+                    Block[{MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q}, 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = {
+                    Quotient[#, 2^48], 
+                    Quotient[
+                    Mod[#, 2^48], 2^32], 
+                    Quotient[
+                    Mod[#, 2^32], 2^16], 
+                    Mod[#, 2^16]}; 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q = Flatten[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q]; Data`StringHash[
+                    FromCharacterCode[
+                    Abs[
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`q]], "Murmur3-64"]], 
+                    Blank[], 
+                    Data`StringHash[
+                    ToString[#, InputForm] <> "Cn.i9)P$", "Murmur3-64"]]& , 
+                    MachineLearning`file163SortedHashAssociation`\
+PackagePrivate`keys$]]], "Version" -> {14., 0}|>], "MissingCode" -> 0, 
+             "Version" -> {14., 0}, "ID" -> 2307112308084156977, 
+             "Output" -> <|
+              "f1" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>|>|>], 
+           MachineLearning`MLProcessor[
+           "FirstValues", <|
+            "Info" -> <|"Type" -> "NominalSequence", "Weight" -> 1|>, "Key" -> 
+             "f1", "Invertibility" -> "Perfect", "StructurePreserving" -> 
+             False, "Missing" -> "Allowed"|>]}, "Invertibility" -> 
+         "Impossible", "StructurePreserving" -> False, "Missing" -> 
+         "Imputed"|>], "Calibrator" -> None, "Method" -> "Markov", 
+      "PostProcessor" -> MachineLearning`MLProcessor["Identity"], 
+      "Options" -> <|
+       "Order" -> <|"Value" -> 0, "Options" -> <||>|>, 
+        "AdditiveSmoothing" -> <|"Value" -> 0.1, "Options" -> <||>|>, 
+        "MinimumTokenCount" -> <|"Value" -> 1, "Options" -> <||>|>, 
+        "ExcludedTokens" -> <|"Value" -> {}, "Options" -> <||>|>|>|>, 
+    "TrainingInformation" -> <|
+     "Configurations" -> 
+      Dataset[<|<|
+          "Value" -> "Markov", 
+           "Options" -> <|
+            "Order" -> <|"Value" -> Automatic|>, 
+             "AdditiveSmoothing" -> <|"Value" -> 0.1|>, 
+             "MinimumTokenCount" -> <|"Value" -> Automatic|>, 
+             "ExcludedTokens" -> <|"Value" -> {}|>|>, "NaiveImputer" -> 
+           Missing["KeyAbsent", "NaiveImputer"], "EMIterations" -> 
+           Missing["KeyAbsent", "EMIterations"]|> -> <||>|>, 
+        TypeSystem`Assoc[
+         TypeSystem`Struct[{
+          "Value", "Options", "NaiveImputer", "EMIterations"}, {
+           TypeSystem`Atom[String], 
+           TypeSystem`Assoc[
+            TypeSystem`Atom[String], 
+            TypeSystem`Struct[{"Value"}, {TypeSystem`AnyType}], 4], 
+           TypeSystem`UnknownType, TypeSystem`UnknownType}], 
+         TypeSystem`Assoc[
+         TypeSystem`UnknownType, TypeSystem`UnknownType, 
+          TypeSystem`AnyLength], 1], <||>], "BestModelInformation" -> 
+      Dataset[<|"Configuration" -> {
+          "Markov", "Order" -> Automatic, "AdditiveSmoothing" -> 0.1, 
+           "MinimumTokenCount" -> Automatic, "ExcludedTokens" -> {}}, 
+         "ModelUtility" -> Missing[]|>, 
+        TypeSystem`Struct[{"Configuration", "ModelUtility"}, {
+          TypeSystem`Tuple[{
+            TypeSystem`Atom[String], TypeSystem`AnyType, TypeSystem`AnyType, 
+            TypeSystem`AnyType, TypeSystem`AnyType}], 
+          TypeSystem`UnknownType}], <||>], "InputDimension" -> 
+      Rational[23179, 9], "OutputDimension" -> 1|>, "AnomalyDetector" -> None,
+     "Log" -> <|
+     "Example" -> 
+      MachineLearning`MLDataset[<|
+        "f1" -> <|
+          "Type" -> "Text", "Weight" -> 1, 
+           "Values" -> {
+            "  \n\n \nLiberal and racially and ethnically diverse, they stand \
+out for their optimism and support for political compromise  \n  \nHolding \
+liberal positions on nearly all issues, Establishment Liberals are some of \
+the strongest supporters of the current president and the Democratic Party of \
+any political typology group.  \nWhile deeply liberal \[Dash] roughly half \
+describe themselves as either liberal (41%) or very liberal (12%) \[Dash] \
+Establishment Liberals are the typology group most likely to see value in \
+political compromise and tend to be more inclined toward more measured \
+approaches to societal change than their Progressive Left counterparts. Like \
+other Democratic-oriented groups, most Establishment Liberals (73%) say a lot \
+more needs to be done to ensure racial equality. Yet they are the only \
+Democratic-aligned group in which a majority of those who say a lot more \
+needs to be done also say this can be achieved by working within the current \
+system.  \nEstablishment Liberals\[CloseCurlyQuote] gender, age and racial \
+and ethnic profile generally parallels that of the Democratic Party as a \
+whole: They comprise more women than men (53% vs. 46%) and more are under the \
+age of 50 than 50 and older. About half of Establishment Liberals (51%) are \
+White, while 18% are Black, two-in-ten are Hispanic and one-in-ten are Asian. \
+ \nEstablishment Liberals are one of two typology groups in which nearly half \
+(47%) have college degrees (a quarter have postgraduate degrees). About \
+one-in-five (23%) live in upper-income households, a higher share than in any \
+other Democratic-oriented typology group.  \nEstablishment Liberals stand out \
+for their current satisfaction with the direction of the country and optimism \
+about the future. Roughly half (51%) say they are satisfied with the way \
+things are going in the country today, compared with 36% of Democratic \
+Mainstays and even smaller shares in other typology groups.   Establishment \
+Liberals: Political affiliation, voting and engagement  \n  \n  \nAn \
+overwhelming majority of Establishment Liberals either identify with or lean \
+toward the Democratic Party. About half say they strongly identify with the \
+Democratic Party (51%), 18% identify as Democrats but not strongly and about \
+a quarter (24%) lean toward the Democratic Party.  \nEstablishment Liberals \
+feel quite warmly toward the Democratic Party. On a \
+\[OpenCurlyDoubleQuote]feeling thermometer\[CloseCurlyDoubleQuote] ranging \
+from 0 to 100, where 100 represents the warmest, most positive feelings, \
+Establishment Liberals give Democrats an average rating of 77, identical to \
+the average rating among Democratic Mainstays and higher than any other \
+group. Establishment Liberals are also fairly cold toward Republicans, giving \
+them an average rating of just 20.  \n  \nAn overwhelming majority of \
+Establishment Liberals approve of Joe Biden\[CloseCurlyQuote]s job \
+performance as president as of mid-September, including six-in-ten who \
+strongly approve. And about eight-in-ten Establishment Liberals (83%) say \
+they approve of the job Democratic leaders in Congress are doing, 11 \
+percentage points higher than the share who say this in any other group.  \n\
+This group is highly politically engaged, though somewhat less so than the \
+two most engaged groups (the Progressive Left and Faith and Flag \
+Conservatives). Establishment Liberals vote at higher rates than many other \
+groups: 78% of those eligible cast ballots in 2020, which is 12 percentage \
+points higher than the general population and 10 points higher than Democrats \
+and Democratic leaners overall.  \nAbout four-in-ten (44%) say they follow \
+what\[CloseCurlyQuote]s going on in government and public affairs most of the \
+time.  \nAt the start of the 2020 Democratic primaries, Biden was the first \
+choice of about three-in-ten Establishment Liberals, with substantial shares \
+of Establishment Liberals also supporting Sens. Elizabeth Warren (17%) and \
+Bernie Sanders (16%), as well as then-Mayor Pete Buttigieg (10%).   \
+Establishment Liberals: Key political attitudes and beliefs  \nOn many \
+dimensions, particularly views about the role of government in society, \
+Establishment Liberals are second only to Progressive Left in the uniformity \
+of their liberal positions.  \n  \nAbout eight-in-ten Establishment Liberals \
+(83%) say they favor a bigger government providing more services, though in \
+contrast to their Progressive Left counterparts they are more likely to say \
+that government services should be modestly \[Dash] as opposed to greatly \
+\[Dash] expanded. Overwhelming majorities in this group also say that \
+government should do more to solve problems (88%), that government regulation \
+of business is necessary to protect the public interest (86%) and that \
+government often does a better job than people give it credit for (75%).  \n\
+Nearly nine-in-ten Establishment Liberals (89%) say that compromise is how \
+things get done in politics, higher than the share in any other political \
+typology group. And about eight-in-ten (82%) say the Democratic Party makes \
+them feel hopeful, which is the highest share of any group.   Establishment \
+Liberals are upbeat about the country  \nEstablishment Liberals are more \
+optimistic about the country and its future than other political typology \
+groups. They are more likely to say they are satisfied with the way things \
+are going and to approve of Biden, and their relatively positive views extend \
+to other attitudes as well.  \n  \nEstablishment Liberals are the only group \
+in which a majority (57%) now say that life in America is better today than \
+it was 50 years ago for people like them. Establishment Liberals also view \
+current economic conditions more positively than those in other typology \
+groups: 48% say that conditions are either excellent (3%) or good (45%), \
+compared with no more than about a third of any other group. And they have a \
+more positive economic outlook than most other groups: 55% say the economy \
+will be better a year from now.   Establishment Liberals: Who they are  \n\
+Establishment Liberals are one of the two most educated typology groups, \
+alongside the Progressive Left. Members of this group are 15 percentage \
+points more likely than U.S. adults overall to have a college degree, and 11 \
+points more likely to have a postgraduate degree. They are also among the \
+most well-traveled typology groups. Nearly two-in-ten (19%) say they have \
+visited 10 or more countries outside the United States.  \nEstablishment \
+Liberals are quite similar to U.S. adults overall in terms of age: 19% of \
+this group are between the ages of 18 and 29, 34% are ages 30 to 49, 24% are \
+50 to 64, and 23% are 65 and older. This typology group is roughly tied for \
+the second highest share of Black adults of any typology group (18%, compared \
+with 15% of Outsider Left, though both trail the 26% of Democratic Mainstays) \
+and is tied with the Outsider Left for the highest share of Asian adults \
+(10%). About half of this group (51%) are White adults and 20% are Hispanic \
+adults.  \nNearly nine-in-ten Establishment Liberals (88%) said they had \
+received all of the necessary shots to be fully vaccinated against COVID-19 \
+as of August 2021, the second-highest share of any group after the \
+Progressive Left. And about two-thirds of Establishment Liberals (68%) report \
+getting political news from CNN in a typical week, making the cable network \
+their most-used source out of 26 major outlets asked about in March 2021.    \
+\n   "}, "ID" -> 9081372576637243601|>|>, <|
+        "ExampleNumber" -> 1, "ExampleWeights" -> 1, "LogDensityRatios" -> 0, 
+         "RawExample" -> False|>], "TrainingTime" -> 0.192414, 
+      "MaxTrainingMemory" -> 2097176, "DataMemory" -> 67344, "FunctionMemory" -> 
+      265312, "LanguageVersion" -> {14., 0}, "Date" -> 
+      DateObject[{2024, 7, 5, 12, 2, 2.157782`7.086582554550105}, "Instant", 
+        "Gregorian", -4.], "ProcessorCount" -> 8, "ProcessorType" -> "ARM64", 
+      "OperatingSystem" -> "MacOSX", "SystemWordLength" -> 64, 
+      "Evaluations" -> {}|>|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{
+  3.929184002176607*^9, {3.929184101235422*^9, 3.929184122170115*^9}},
+ CellLabel->"Out[47]=",ExpressionUUID->"756c0eeb-b815-4c20-878c-ea99fba0aeb4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"test", "[", 
+  RowBox[{"democratTexts", "[", 
+   RowBox[{"[", "1", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.929184010800824*^9, 3.9291840164350224`*^9}, {
+  3.929184078472659*^9, 3.92918408118876*^9}},
+ CellLabel->"In[48]:=",ExpressionUUID->"fd7a6385-59b5-4999-b7bd-528450c9eb81"],
+
+Cell[BoxData["\<\"faith-and-flag-conservatives\"\>"], "Output",
+ CellChangeTimes->{{3.929184104035207*^9, 3.9291841240788383`*^9}},
+ CellLabel->"Out[48]=",ExpressionUUID->"5beb8bcd-081b-4751-8480-c88d310da7c7"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9291841283800783`*^9, 
+  3.929184129275552*^9}},ExpressionUUID->"7cbfdba1-6836-4997-9e60-\
+e5f75037f112"]
 },
 WindowSize->{808, 737},
 WindowMargins->{{309, Automatic}, {Automatic, 0}},
@@ -2203,32 +3762,44 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[583, 22, 1095, 22, 73, "Input",ExpressionUUID->"559d1d65-f0a3-4b8b-8d9e-d08ffd3c967d"],
-Cell[1681, 46, 44962, 862, 64, "Output",ExpressionUUID->"54d0dd51-6522-4364-a4cd-254107fe4214"]
+Cell[583, 22, 1094, 22, 73, "Input",ExpressionUUID->"559d1d65-f0a3-4b8b-8d9e-d08ffd3c967d"],
+Cell[1680, 46, 45030, 863, 64, "Output",ExpressionUUID->"ff67a1d7-3742-4ff6-aef9-b732bdb17887"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46680, 913, 325, 7, 52, "Input",ExpressionUUID->"fdb4713f-0754-4621-a530-98d382f385f3"],
-Cell[47008, 922, 52588, 983, 65, "Output",ExpressionUUID->"5d75d51f-3028-4f3b-aa39-f3797db5a99d"]
+Cell[46747, 914, 325, 7, 52, "Input",ExpressionUUID->"fdb4713f-0754-4621-a530-98d382f385f3"],
+Cell[47075, 923, 52936, 991, 65, "Output",ExpressionUUID->"d3edd191-d61d-4ca2-b765-a1acbf14d663"]
 }, Open  ]],
-Cell[99611, 1908, 660, 13, 73, "Input",ExpressionUUID->"40c130a7-7f13-494b-a4ab-5e547a1d899f"],
-Cell[100274, 1923, 977, 25, 94, "Input",ExpressionUUID->"8e49a7cf-7132-4d18-bca1-4ed8c2e61756"],
+Cell[100026, 1917, 659, 13, 73, "Input",ExpressionUUID->"40c130a7-7f13-494b-a4ab-5e547a1d899f"],
+Cell[100688, 1932, 976, 25, 94, "Input",ExpressionUUID->"8e49a7cf-7132-4d18-bca1-4ed8c2e61756"],
 Cell[CellGroupData[{
-Cell[101276, 1952, 735, 12, 178, "Input",ExpressionUUID->"b60b09ba-9653-4c95-ac2a-7a9e9c016ac0"],
-Cell[102014, 1966, 873, 12, 140, "Output",ExpressionUUID->"b3973dc9-eb53-47c8-984d-111b7c513dc2"]
+Cell[101689, 1961, 735, 12, 178, "Input",ExpressionUUID->"b60b09ba-9653-4c95-ac2a-7a9e9c016ac0"],
+Cell[102427, 1975, 791, 12, 119, "Output",ExpressionUUID->"f1b8b4fc-d412-4888-9e6a-ce6664d29f99"]
 }, Open  ]],
-Cell[102902, 1981, 1020, 21, 73, "Input",ExpressionUUID->"0a6b7459-50c6-4908-a096-58f5419bc056"],
+Cell[103233, 1990, 1016, 21, 73, "Input",ExpressionUUID->"0a6b7459-50c6-4908-a096-58f5419bc056"],
 Cell[CellGroupData[{
-Cell[103947, 2006, 348, 8, 30, "Input",ExpressionUUID->"5cef19ef-192c-4dab-ab8a-96ad7033f774"],
-Cell[104298, 2016, 632, 9, 161, "Output",ExpressionUUID->"3e41a193-21bd-4203-b88a-8e06759f6ad2"]
+Cell[104274, 2015, 348, 8, 30, "Input",ExpressionUUID->"5cef19ef-192c-4dab-ab8a-96ad7033f774"],
+Cell[104625, 2025, 1688, 22, 560, "Output",ExpressionUUID->"07c47cff-2938-4c98-9011-459b9ab0d2ed"]
 }, Open  ]],
-Cell[104945, 2028, 764, 19, 178, "Input",ExpressionUUID->"5fcf7f69-76c9-4473-b3d0-b4231fcacf04"],
-Cell[105712, 2049, 934, 22, 241, "Input",ExpressionUUID->"381b7fce-6b1c-4113-b99b-6317c96f866a"],
-Cell[106649, 2073, 2169, 43, 136, "Input",ExpressionUUID->"83dd837f-086b-4071-922c-6abc4fddd712"],
-Cell[108821, 2118, 1246, 31, 136, "Input",ExpressionUUID->"abb785ad-c06b-4296-b883-cad6e6a8186e"],
+Cell[106328, 2050, 764, 19, 178, "Input",ExpressionUUID->"5fcf7f69-76c9-4473-b3d0-b4231fcacf04"],
+Cell[107095, 2071, 933, 22, 241, "Input",ExpressionUUID->"381b7fce-6b1c-4113-b99b-6317c96f866a"],
+Cell[108031, 2095, 2316, 45, 136, "Input",ExpressionUUID->"83dd837f-086b-4071-922c-6abc4fddd712"],
+Cell[110350, 2142, 1395, 33, 136, "Input",ExpressionUUID->"abb785ad-c06b-4296-b883-cad6e6a8186e"],
+Cell[111748, 2177, 478, 10, 73, "Input",ExpressionUUID->"7e799841-45bc-4fe8-b49a-f9950ad1e233"],
+Cell[112229, 2189, 1003, 24, 94, "Input",ExpressionUUID->"11b71366-27c9-47f1-9670-eda21cf06469"],
 Cell[CellGroupData[{
-Cell[110092, 2153, 1099, 22, 115, "Input",ExpressionUUID->"ff8fb17a-5cfb-4c86-8e83-e75d3df61a5b"],
-Cell[111194, 2177, 498, 7, 79, "Output",ExpressionUUID->"992c53c0-05ec-4ee6-b588-48a186d313d4"]
-}, Open  ]]
+Cell[113257, 2217, 586, 13, 30, "Input",ExpressionUUID->"6ddfe849-4675-48c8-96ee-b8ee49ea98e3"],
+Cell[113846, 2232, 427, 8, 140, "Output",ExpressionUUID->"8c48f941-fa7e-4aaf-97c1-02dea586186d"]
+}, Open  ]],
+Cell[114288, 2243, 702, 16, 30, "Input",ExpressionUUID->"f049501b-ab3a-4542-beab-86719d39bf5a"],
+Cell[CellGroupData[{
+Cell[115015, 2263, 253, 4, 30, "Input",ExpressionUUID->"4fa95c60-f2af-4a61-abf6-6bda45fd0238"],
+Cell[115271, 2269, 80278, 1454, 61, "Output",ExpressionUUID->"756c0eeb-b815-4c20-878c-ea99fba0aeb4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[195586, 3728, 316, 6, 30, "Input",ExpressionUUID->"fd7a6385-59b5-4999-b7bd-528450c9eb81"],
+Cell[195905, 3736, 210, 2, 34, "Output",ExpressionUUID->"5beb8bcd-081b-4751-8480-c88d310da7c7"]
+}, Open  ]],
+Cell[196130, 3741, 154, 3, 30, "Input",ExpressionUUID->"7cbfdba1-6836-4997-9e60-e5f75037f112"]
 }
 ]
 *)
