@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     16145,        391]
-NotebookOptionsPosition[     13615,        346]
-NotebookOutlinePosition[     14010,        362]
-CellTagsIndexPosition[     13967,        359]
+NotebookDataLength[     27080,        615]
+NotebookOptionsPosition[     23550,        558]
+NotebookOutlinePosition[     23946,        574]
+CellTagsIndexPosition[     23903,        571]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -51,8 +51,7 @@ political party while the Republican Party is considered as a right-wing \
 political party.\n\nHowever, their political ideologies and ideas have \
 undergone significant shifts throughout the years. This begs the question: ",
  StyleBox["Can we analyze how the Democratic and Republican parties\
-\[CloseCurlyQuote] ideologies have shifted throughout the years [year] and \
-2020?",
+\[CloseCurlyQuote] ideologies have shifted from the year 1900 to 2020?",
   FontWeight->"Bold"]
 }], "CodeText",
  CellChangeTimes->{{3.92894370621812*^9, 3.928944236770633*^9}, {
@@ -61,8 +60,8 @@ undergone significant shifts throughout the years. This begs the question: ",
    3.929008200938364*^9}, {3.929008417025887*^9, 3.929008449750965*^9}, {
    3.929008544561907*^9, 3.929008561758896*^9}, {3.929008596205716*^9, 
    3.929008618463463*^9}, {3.929114750011005*^9, 3.929114752745924*^9}, {
-   3.9291150361277514`*^9, 
-   3.929115045508437*^9}},ExpressionUUID->"90c071ce-f330-4c14-b1d3-\
+   3.9291150361277514`*^9, 3.929115045508437*^9}, {3.929281561154735*^9, 
+   3.929281574057399*^9}},ExpressionUUID->"90c071ce-f330-4c14-b1d3-\
 b7eb585ff2f5"]
 }, Open  ]],
 
@@ -88,14 +87,24 @@ created before the Democratic and Republican Conventions of 2024, which is \
 when they publish their party platform. As a result, this project could only \
 use party platforms up to the year 2020. 
 
-The dataset was a table of political party platforms by presidential election \
-year with a hyperlink to a separate page that showed the party platform.\
+The website was a table of political party platforms by presidential election \
+year with a hyperlink to a separate page that featured the party platform.\
 \>", "CodeText",
  CellChangeTimes->{{3.92891951768969*^9, 3.928919544022485*^9}, 
    3.929114567001966*^9, {3.929114756082605*^9, 3.929114928515251*^9}, {
-   3.92911496195047*^9, 
-   3.929115077072812*^9}},ExpressionUUID->"f0a52dcb-3efc-4df4-bc51-\
+   3.92911496195047*^9, 3.929115077072812*^9}, {3.929282311275857*^9, 
+   3.929282322891308*^9}, {3.9292823583167267`*^9, 
+   3.929282358949346*^9}},ExpressionUUID->"f0a52dcb-3efc-4df4-bc51-\
 3a0f43fc6bfa"],
+
+Cell["\<\
+The code below gets a list of all of the hyperlinks that are in the main page \
+of the list of party platforms. I used a pattern to selected all of the links \
+connected to the Democratic Party Platform. \
+\>", "CodeText",
+ CellChangeTimes->{{3.9292823638714542`*^9, 
+  3.9292823654693937`*^9}},ExpressionUUID->"378a9579-0103-4cab-900a-\
+8784205c015b"],
 
 Cell[BoxData[
  RowBox[{
@@ -119,14 +128,14 @@ documents-archive-guidebook/party-platforms-and-nominating-conventions-3\>\"",
  CellLabel->"In[90]:=",ExpressionUUID->"f3196115-d699-4071-9e2d-b18a59008916"],
 
 Cell["\<\
-This code gets a list of all of the hyperlinks that are located in the main \
-page of the dataset that are connected to the Democratic Party platforms. I \
-used a pattern to selected all of the links connected to the Democratic Party \
-Platform. \
+The code below does the same action as the previous code, but collects all of \
+the hyperlinks connected to the Republican Party platforms.\
 \>", "CodeText",
  CellChangeTimes->{{3.928857197511965*^9, 3.92885720813448*^9}, {
   3.928857350133312*^9, 3.928857428818248*^9}, {3.929115124422237*^9, 
-  3.929115125512295*^9}},ExpressionUUID->"56737a88-823a-46ca-b106-\
+  3.929115125512295*^9}, {3.9292817018810177`*^9, 3.929281704574073*^9}, {
+  3.9292823361853237`*^9, 
+  3.92928237240773*^9}},ExpressionUUID->"56737a88-823a-46ca-b106-\
 7f2604dbe16e"],
 
 Cell[BoxData[
@@ -142,57 +151,221 @@ Cell[BoxData[
          "\"\<https://www.presidency.ucsb.edu/documents/presidential-\
 documents-archive-guidebook/party-platforms-and-nominating-conventions-3\>\"",
            ",", " ", "\"\<Hyperlinks\>\""}], "]"}], ",", " ", 
-        RowBox[{"___", "~~", "\"\<republican-party-platform\>\"", "~~", 
-         RowBox[{
-         "___", " ", "|", " ", 
-          "\"\<https://www.presidency.ucsb.edu/documents/resolution-regarding-\
-the-republican-party-platform\>\""}]}]}], "]"}], ",", " ", 
+        RowBox[{
+        "___", "~~", "\"\<republican-party-platform\>\"", "~~", "___"}]}], 
+       "]"}], ",", " ", 
       RowBox[{
        RowBox[{
         RowBox[{"Length", "[", "#", "]"}], " ", ">", " ", "0"}], " ", "&"}]}],
       "]"}], "]"}]}], ";"}]], "Input",
- CellChangeTimes->{
-  3.929114585913054*^9},ExpressionUUID->"bd087b4a-fa09-4665-ae03-\
-4e0f722157a4"],
+ CellChangeTimes->{{3.929275752179957*^9, 3.929275769570953*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"95bef255-2cb8-46cc-b161-073a720d6ecf"],
 
 Cell["\<\
-This code does the same action as the code before, but collects all of the \
-hyperlinks connected to the Republican Party platforms.\
+Using the list of hyperlinks that I obtained for each party, I imported the \
+HTML code from each of the pages. Then, I only took the the text that is \
+inside the HTML div tag with the id \[OpenCurlyDoubleQuote]field-docs-content\
+\[CloseCurlyDoubleQuote]. This is because this div tag contained the content \
+of the web page, which were the party platforms. It also removes all of the \
+HTML tags that are located within the text. 
+
+The code below obtains all of the Democratic Party\[CloseCurlyQuote]s party \
+platforms.\
 \>", "CodeText",
  CellChangeTimes->{{3.92885743795157*^9, 3.92885744246949*^9}, {
-  3.929115105946851*^9, 
-  3.929115122744753*^9}},ExpressionUUID->"4ebc675b-acac-4aa0-9aa1-\
+  3.929115105946851*^9, 3.929115122744753*^9}, {3.9292816934843616`*^9, 
+  3.929281700439025*^9}, {3.929282370516124*^9, 
+  3.9292823803462267`*^9}},ExpressionUUID->"4ebc675b-acac-4aa0-9aa1-\
 eb0f2d761b59"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"democratTexts", " ", "=", " ", 
+  RowBox[{"demtexts", " ", "=", 
    RowBox[{
     RowBox[{
-     RowBox[{"StringJoin", "[", 
-      RowBox[{"StringPart", "[", 
-       RowBox[{
-        RowBox[{"StringReplace", "[", 
+     RowBox[{"StringTake", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
          RowBox[{
-          RowBox[{
-           RowBox[{"StringCases", "[", 
-            RowBox[{
-             RowBox[{"Import", "[", 
-              RowBox[{"#", ",", " ", "\"\<Text\>\""}], "]"}], ",", " ", 
-             RowBox[{"Shortest", "[", 
-              RowBox[{
-              "\"\<field-docs-content\>\"", "~~", "___", " ", "~~", " ", 
-               "\"\<</div>\>\""}], "]"}]}], "]"}], "[", 
-           RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
-          RowBox[{
-           RowBox[{"Shortest", "[", 
-            RowBox[{"\"\<<\>\"", "~~", "__", "~~", "\"\<>\>\""}], "]"}], 
-           "->", "\"\<\>\""}]}], "]"}], ",", " ", 
-        RowBox[{"21", ";;", 
-         RowBox[{"-", "1"}]}]}], "]"}], "]"}], " ", "&"}], " ", "/@", " ", 
+          RowBox[{"StringCases", "[", 
+           RowBox[{
+            RowBox[{"Import", "[", 
+             RowBox[{"#", ",", " ", "\"\<Text\>\""}], "]"}], ",", " ", 
+            RowBox[{"Shortest", "[", 
+             RowBox[{
+             "\"\<field-docs-content\>\"", "~~", "___", " ", "~~", " ", 
+              "\"\<</div>\>\""}], "]"}]}], "]"}], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
+         RowBox[{
+          RowBox[{"Shortest", "[", 
+           RowBox[{"\"\<<\>\"", "~~", "__", "~~", "\"\<>\>\""}], "]"}], "->", 
+          "\"\<\>\""}]}], "]"}], ",", " ", 
+       RowBox[{"21", ";;", 
+        RowBox[{"-", "1"}]}]}], "]"}], " ", "&"}], " ", "/@", " ", 
     RowBox[{"democrats", "[", 
      RowBox[{"[", 
-      RowBox[{"1", ";;", "10"}], "]"}], "]"}]}]}], ";"}]], "Input",
+      RowBox[{"1", ";;", "31"}], "]"}], "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.929269479171448*^9, 3.929269511699087*^9}, {
+   3.9292758347050653`*^9, 3.929275836136166*^9}, {3.929275871873152*^9, 
+   3.929275873202514*^9}, 3.929278402811819*^9, {3.929279114332348*^9, 
+   3.929279129744134*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"8da2147c-cb23-4493-b78f-149740ebb184"],
+
+Cell["\<\
+The code below gathers all of the Republican Party\[CloseCurlyQuote]s party \
+platforms.\
+\>", "CodeText",
+ CellChangeTimes->{{3.929114612222847*^9, 3.929114664427082*^9}, {
+  3.929115134497703*^9, 3.929115155423252*^9}, {3.929281594663151*^9, 
+  3.9292816900299377`*^9}, {3.92928237458674*^9, 
+  3.929282401794723*^9}},ExpressionUUID->"79c4a5e8-ece0-4a7f-9701-\
+518c110e2138"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"reptexts", " ", "=", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"StringTake", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringCases", "[", 
+           RowBox[{
+            RowBox[{"Import", "[", 
+             RowBox[{"#", ",", " ", "\"\<Text\>\""}], "]"}], ",", " ", 
+            RowBox[{"Shortest", "[", 
+             RowBox[{
+             "\"\<field-docs-content\>\"", "~~", "___", " ", "~~", " ", 
+              "\"\<</div>\>\""}], "]"}]}], "]"}], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
+         RowBox[{
+          RowBox[{"Shortest", "[", 
+           RowBox[{"\"\<<\>\"", "~~", "__", "~~", "\"\<>\>\""}], "]"}], "->", 
+          "\"\<\>\""}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"21", ";;", 
+         RowBox[{"-", "1"}]}], "}"}]}], "]"}], " ", "&"}], " ", "/@", " ", 
+    RowBox[{"republicans", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ";;", "31"}], "]"}], "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.928856736872252*^9, 3.928856783400337*^9}, 
+   3.92885694782789*^9, {3.92917861893568*^9, 3.929178619544629*^9}, {
+   3.929179816435683*^9, 3.929179816721618*^9}, {3.929181247038196*^9, 
+   3.929181247096115*^9}, {3.929269685908865*^9, 3.9292697005877953`*^9}, {
+   3.929275877004766*^9, 3.9292758770828447`*^9}, {3.9292761303058653`*^9, 
+   3.929276132035415*^9}, {3.9292785047243633`*^9, 3.929278506804412*^9}, {
+   3.92927913158884*^9, 3.929279131814529*^9}},
+ CellLabel->"In[65]:=",ExpressionUUID->"fff147b2-e058-42cb-9822-21503b04500c"],
+
+Cell["\<\
+This project will not use the 2020 statement from the Republican Party \
+because the party cancelled the 2020 Republican Convention due to the \
+COVID-19 pandemic and the document is an affirmation of the reuse of the 2016 \
+Republican Party platform. As a result, the the 2020 Republican Party \
+platform can be considered as the same as that of 2016. \
+\>", "CodeText",
+ CellChangeTimes->{{3.92911467030658*^9, 3.929114674469651*^9}, {
+  3.929115161660179*^9, 3.929115163952638*^9}, {3.9292821278868637`*^9, 
+  3.929282251543458*^9}, {3.9292823832540693`*^9, 
+  3.929282399673172*^9}},ExpressionUUID->"5af6c75d-bbf1-4cf8-aed5-\
+e6a4bb9e9639"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Clustering Party Platforms using Principal Components Analysis\
+\>", "Chapter",
+ CellChangeTimes->{{3.928919053784965*^9, 3.928919056280406*^9}, {
+  3.928919914195766*^9, 3.928919918943673*^9}, {3.9289389419492483`*^9, 
+  3.928938954112059*^9}, {3.928939061029001*^9, 3.928939070553852*^9}, {
+  3.929115202403883*^9, 3.929115222776401*^9}, {3.9292817153039083`*^9, 
+  3.9292817333409557`*^9}},ExpressionUUID->"8d7efa7d-a1e2-49a0-9011-\
+96d47edd5c4c"],
+
+Cell["\<\
+When analyzing similarities between texts and clustering, a large amount of \
+dimensions and features will be used, which leads to many issues such as \
+overfitting, scarcity of data, and the inability to represent more than three \
+dimensions. 
+
+Principal Components Analysis is a way around this issue by reducing the \
+number of dimensions to a set of \[OpenCurlyDoubleQuote]principal components\
+\[CloseCurlyDoubleQuote] that still captures the most important patterns and \
+maximizes the variance within the data. When using text, vector embedding \
+will be used to convert the text into numbers that describes the \
+characteristics of the text. These numbers will be used in the PCA. 
+
+I decided to use PCA in order to visualize how the Democratic and Republican \
+Parties\[CloseCurlyQuote] party platforms change by plotting them on a \
+2-dimensional graph and comparing where they lie. 
+
+The first dimension of the graph would be the first principal component, \
+which captures the most variation, and the second dimension would be the \
+second principal component, which captures the most variance that is \
+orthogonal to the first component. Although what the principal components \
+exactly are will not be discussed in the project, it allows for an abstract \
+visualization of the shifts of the political parties. \
+\>", "CodeText",
+ CellChangeTimes->{{3.9289432383566318`*^9, 3.92894324172941*^9}, {
+  3.9292900827517853`*^9, 
+  3.929290089618102*^9}},ExpressionUUID->"71f5c923-d43e-4a8b-a054-\
+8220f742c7ac"],
+
+Cell["\<\
+Using the texts of the party platforms that I had obtained, I decided to \
+create an association where the key was the year and political party and the \
+value was the party platform. This will be used to label the points when we \
+perform the principal components analysis. 
+
+The bottom code creates two associations for Democratic and Republican Party\
+\[CloseCurlyQuote]s platforms and then creates a large association that would \
+include all platforms. \
+\>", "CodeText",
+ CellChangeTimes->{{3.9292818084684362`*^9, 3.929281821813368*^9}, {
+  3.929282270213097*^9, 3.9292822957428513`*^9}, {3.929282519435268*^9, 
+  3.9292825537183437`*^9}, {3.929286641090794*^9, 
+  3.929286679916284*^9}},ExpressionUUID->"e93267f4-7051-4a02-92a6-\
+d3ed61f0e078"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"demkeys", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"ToString", "[", 
+        RowBox[{"2024", " ", "-", " ", 
+         RowBox[{"4", "*", "i"}]}], "]"}], ",", " ", 
+       "\"\< Democratic Party\>\""}], "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", 
+       RowBox[{"Range", "[", 
+        RowBox[{"Length", "[", "demtexts", "]"}], "]"}]}], "}"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.929278484898756*^9, 3.92927849283743*^9}},
+ CellLabel->"In[63]:=",ExpressionUUID->"407a7ce2-de77-498f-9298-86f1c406a3fc"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"democratTexts", " ", "=", 
+   RowBox[{"Association", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"demkeys", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], " ", "->", " ", 
+       RowBox[{"demtexts", "[", 
+        RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", " ", 
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", "demtexts", "]"}], "]"}]}], "}"}]}], "]"}], 
+    "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.9288526171898327`*^9, 3.928852617782092*^9}, {
    3.9288537341639423`*^9, 3.928853751428297*^9}, {3.928854058575479*^9, 
    3.928854058840439*^9}, {3.928854218583096*^9, 3.928854222886982*^9}, {
@@ -201,96 +374,122 @@ Cell[BoxData[
    3.928854575418068*^9, 3.928854643824176*^9}, {3.928854687723281*^9, 
    3.928854689762126*^9}, {3.9288547273831053`*^9, 3.928854730793466*^9}, {
    3.928854767761155*^9, 3.928854835250346*^9}, {3.928854871798828*^9, 
-   3.9288549048980403`*^9}, {3.928855096872937*^9, 3.92885512239664*^9}, {
+   3.92885490489804*^9}, {3.928855096872937*^9, 3.92885512239664*^9}, {
    3.928855159103773*^9, 3.928855167422571*^9}, {3.928855966808564*^9, 
    3.928855970664737*^9}, {3.928856228233855*^9, 3.928856258723381*^9}, {
    3.928856301393928*^9, 3.928856350210287*^9}, {3.928856383703747*^9, 
    3.928856521884019*^9}, {3.9288565585182753`*^9, 3.928856663334841*^9}, {
-   3.928856707213431*^9, 3.928856726766301*^9}, 3.928856989873223*^9},
- CellLabel->
-  "In[170]:=",ExpressionUUID->"210d8002-df8a-43b1-ace0-f450dc38b2cd"],
-
-Cell["\<\
-This code only takes the text that is inside the HTML div tag with the id \
-\[OpenCurlyDoubleQuote]field-docs-content\[CloseCurlyDoubleQuote], which is \
-the content of the web page: the party platforms. It also removes all of the \
-HTML tags that are located within the text. This code obtains all of the \
-Democratic Party\[CloseCurlyQuote]s party platforms.\
-\>", "CodeText",
- CellChangeTimes->{{3.929114612222847*^9, 3.929114664427082*^9}, {
-  3.929115134497703*^9, 
-  3.929115155423252*^9}},ExpressionUUID->"79c4a5e8-ece0-4a7f-9701-\
-518c110e2138"],
+   3.928856707213431*^9, 3.928856726766301*^9}, 3.928856989873223*^9, {
+   3.929178617616693*^9, 3.929178617733294*^9}, {3.929179814210308*^9, 
+   3.929179815061646*^9}, {3.929181245875659*^9, 3.929181248651916*^9}, {
+   3.92926848444799*^9, 3.9292685093521223`*^9}, {3.9292685590916443`*^9, 
+   3.929268562967488*^9}, {3.929269385355469*^9, 3.929269412360414*^9}, {
+   3.929269486076879*^9, 3.929269505727591*^9}, {3.929269813353394*^9, 
+   3.9292698163833714`*^9}, {3.929276681232079*^9, 3.929276686811125*^9}, {
+   3.929276726284707*^9, 3.929276728350052*^9}, {3.929276838166889*^9, 
+   3.929276839952817*^9}, {3.929276918700493*^9, 3.929276922260599*^9}},
+ CellLabel->"In[64]:=",ExpressionUUID->"0fad2824-9dfe-4333-9a3c-5c82466cdaf2"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"republicanTexts", " ", "=", " ", 
+  RowBox[{"reptexts", " ", "=", " ", 
    RowBox[{
     RowBox[{
-     RowBox[{"StringJoin", "[", 
-      RowBox[{"StringPart", "[", 
-       RowBox[{
-        RowBox[{"StringReplace", "[", 
+     RowBox[{"StringTake", "[", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
          RowBox[{
-          RowBox[{
-           RowBox[{"StringCases", "[", 
-            RowBox[{
-             RowBox[{"Import", "[", 
-              RowBox[{"#", ",", " ", "\"\<Text\>\""}], "]"}], ",", " ", 
-             RowBox[{"Shortest", "[", 
-              RowBox[{
-              "\"\<field-docs-content\>\"", "~~", "___", " ", "~~", " ", 
-               "\"\<</div>\>\""}], "]"}]}], "]"}], "[", 
-           RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
-          RowBox[{
-           RowBox[{"Shortest", "[", 
-            RowBox[{"\"\<<\>\"", "~~", "__", "~~", "\"\<>\>\""}], "]"}], 
-           "->", "\"\<\>\""}]}], "]"}], ",", " ", 
+          RowBox[{"StringCases", "[", 
+           RowBox[{
+            RowBox[{"Import", "[", 
+             RowBox[{"#", ",", " ", "\"\<Text\>\""}], "]"}], ",", " ", 
+            RowBox[{"Shortest", "[", 
+             RowBox[{
+             "\"\<field-docs-content\>\"", "~~", "___", " ", "~~", " ", 
+              "\"\<</div>\>\""}], "]"}]}], "]"}], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
+         RowBox[{
+          RowBox[{"Shortest", "[", 
+           RowBox[{"\"\<<\>\"", "~~", "__", "~~", "\"\<>\>\""}], "]"}], "->", 
+          "\"\<\>\""}]}], "]"}], ",", 
+       RowBox[{"{", 
         RowBox[{"21", ";;", 
-         RowBox[{"-", "1"}]}]}], "]"}], "]"}], " ", "&"}], " ", "/@", " ", 
+         RowBox[{"-", "1"}]}], "}"}]}], "]"}], " ", "&"}], " ", "/@", " ", 
     RowBox[{"republicans", "[", 
      RowBox[{"[", 
-      RowBox[{"1", ";;", "10"}], "]"}], "]"}]}]}], ";"}]], "Input",
+      RowBox[{"2", ";;", "31"}], "]"}], "]"}]}]}], ";"}]], "Input",
  CellChangeTimes->{{3.928856736872252*^9, 3.928856783400337*^9}, 
-   3.92885694782789*^9},
- CellLabel->
-  "In[154]:=",ExpressionUUID->"44555f66-ad87-42a8-a212-5e17a3272dfd"],
+   3.92885694782789*^9, {3.92917861893568*^9, 3.929178619544629*^9}, {
+   3.929179816435683*^9, 3.929179816721618*^9}, {3.929181247038196*^9, 
+   3.929181247096115*^9}, {3.929269685908865*^9, 3.9292697005877953`*^9}, {
+   3.929275877004766*^9, 3.9292758770828447`*^9}, {3.9292761303058653`*^9, 
+   3.929276132035415*^9}, {3.9292785047243633`*^9, 3.929278506804412*^9}, {
+   3.92927913158884*^9, 3.929279131814529*^9}},
+ CellLabel->"In[65]:=",ExpressionUUID->"9bb52017-8077-447e-a782-e1318405fac9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"repkeys", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"ToString", "[", 
+        RowBox[{"2020", " ", "-", " ", 
+         RowBox[{"4", "*", "i"}]}], "]"}], ",", " ", 
+       "\"\< Republican Party\>\""}], "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", 
+       RowBox[{"Range", "[", 
+        RowBox[{"Length", "[", "reptexts", "]"}], "]"}]}], "}"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.929277038663204*^9, 3.929277041678059*^9}, {
+  3.929278519620912*^9, 3.929278551966313*^9}, {3.929278748376004*^9, 
+  3.929278748625499*^9}},
+ CellLabel->"In[66]:=",ExpressionUUID->"834221c2-0d0f-46e9-9b83-7daa8492f4e1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"republicanTexts", " ", "=", 
+   RowBox[{"Association", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"repkeys", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], " ", "->", " ", 
+       RowBox[{"reptexts", "[", 
+        RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", " ", 
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", "reptexts", "]"}], "]"}]}], "}"}]}], "]"}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.929269753283498*^9, 3.929269763435404*^9}, {
+  3.929269819321789*^9, 3.929269823174601*^9}, {3.929275994329542*^9, 
+  3.929276009367692*^9}, {3.929276688228937*^9, 3.929276693791894*^9}, {
+  3.929276874884675*^9, 3.929276880857016*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"e5e5e7c9-5a27-463d-950c-8b7ad50d4bae"],
+
+Cell[BoxData[
+ RowBox[{"alltexts", " ", "=", " ", 
+  RowBox[{"Join", "[", 
+   RowBox[{"democratTexts", ",", " ", "republicanTexts"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.929276608230122*^9, 3.929276642766458*^9}, {
+  3.929277770937937*^9, 3.92927777636789*^9}},
+ CellLabel->"In[68]:=",ExpressionUUID->"c283d425-ee14-4101-8921-631a914ddd21"],
 
 Cell["\<\
-This is the code that I used to gather the Republican \
-Party\[CloseCurlyQuote]s party platforms.\
+The function below returns the color Red if the input ends with \
+\[OpenCurlyDoubleQuote]Republican Party\[CloseCurlyDoubleQuote] and Blue if \
+the input ends with \[OpenCurlyDoubleQuote]Democratic Party\
+\[CloseCurlyDoubleQuote]. This is in order to color the points on the graph \
+based on the colors of the political party that the party platform was \
+published by. \
 \>", "CodeText",
- CellChangeTimes->{{3.92911467030658*^9, 3.929114674469651*^9}, {
-  3.929115161660179*^9, 
-  3.9291151639526377`*^9}},ExpressionUUID->"5af6c75d-bbf1-4cf8-aed5-\
-e6a4bb9e9639"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["\<\
-Classifying the Party Platforms into Political Typology Groups\
-\>", "Chapter",
- CellChangeTimes->{{3.928919053784965*^9, 3.928919056280406*^9}, {
-  3.928919914195766*^9, 3.928919918943673*^9}, {3.9289389419492483`*^9, 
-  3.928938954112059*^9}, {3.928939061029001*^9, 3.928939070553852*^9}, {
-  3.929115202403883*^9, 
-  3.929115222776401*^9}},ExpressionUUID->"8d7efa7d-a1e2-49a0-9011-\
-96d47edd5c4c"],
-
-Cell["\<\
-Part 1: General
-Dimensions:
-Liberal-Conservative & Time
-OR
-Figure out Liberal-Conservative score
-Correlate that to Pew Research\[CloseCurlyQuote]s classifications
-Create a table that shows how each party shifts
-\
-\>", "CodeText",
- CellChangeTimes->{{3.9289432383566313`*^9, 
-  3.92894324172941*^9}},ExpressionUUID->"71f5c923-d43e-4a8b-a054-\
-8220f742c7ac"]
+ CellChangeTimes->{{3.929286683697618*^9, 
+  3.929286742370878*^9}},ExpressionUUID->"70ad3119-4e43-423d-a389-\
+5e992fc18cb5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -333,10 +532,23 @@ Cell["References", "Chapter",
   3.928920280870751*^9}},ExpressionUUID->"d1ad8458-0e0e-4708-be6d-\
 65ceb0151c75"],
 
+Cell[CellGroupData[{
+
 Cell["Acknowledgements", "Chapter",
  CellChangeTimes->{{3.92892028450647*^9, 
   3.928920287286113*^9}},ExpressionUUID->"801c5b97-6402-4faa-8458-\
 e58915586fa8"],
+
+Cell["\<\
+I would like to thank my mentor, Jack Heseltime, and my teacher\
+\[CloseCurlyQuote]s assistant, Nicol\[OAcute] Monti for their infinite \
+patience, their constant assistance throughout this project, and their \
+willingness to guide me through my first ever research project. \
+\>", "CodeText",
+ CellChangeTimes->{{3.929282651676783*^9, 
+  3.929282763992749*^9}},ExpressionUUID->"5a448f17-0ce4-4628-9fd8-\
+a770ebed02b2"]
+}, Open  ]],
 
 Cell["Cite this Notebook", "Chapter",
  CellChangeTimes->{{3.928920294217026*^9, 
@@ -345,7 +557,7 @@ Cell["Cite this Notebook", "Chapter",
 }, Open  ]]
 },
 WindowSize->{808, 740},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 21}, {Automatic, 0}},
 FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 16, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"b822b52d-0b92-4fed-82bf-0b5982689b0e"
@@ -365,33 +577,45 @@ Cell[CellGroupData[{
 Cell[583, 22, 378, 7, 222, "Title",ExpressionUUID->"4058004c-df04-4158-ada7-978004e6649d"],
 Cell[CellGroupData[{
 Cell[986, 33, 158, 3, 69, "Chapter",ExpressionUUID->"83bd32a1-d18c-4951-9b41-aca67780932a"],
-Cell[1147, 38, 1751, 27, 311, "CodeText",ExpressionUUID->"90c071ce-f330-4c14-b1d3-b7eb585ff2f5"]
+Cell[1147, 38, 1785, 26, 311, "CodeText",ExpressionUUID->"90c071ce-f330-4c14-b1d3-b7eb585ff2f5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2935, 70, 214, 4, 69, "Chapter",ExpressionUUID->"c93767f7-d34b-4e40-ab52-49c102e454cd"],
-Cell[3152, 76, 1193, 21, 269, "CodeText",ExpressionUUID->"f0a52dcb-3efc-4df4-bc51-3a0f43fc6bfa"],
-Cell[4348, 99, 765, 19, 178, "Input",ExpressionUUID->"f3196115-d699-4071-9e2d-b18a59008916"],
-Cell[5116, 120, 494, 9, 80, "CodeText",ExpressionUUID->"56737a88-823a-46ca-b106-7f2604dbe16e"],
-Cell[5613, 131, 957, 24, 241, "Input",ExpressionUUID->"bd087b4a-fa09-4665-ae03-4e0f722157a4"],
-Cell[6573, 157, 333, 7, 59, "CodeText",ExpressionUUID->"4ebc675b-acac-4aa0-9aa1-eb0f2d761b59"],
-Cell[6909, 166, 2177, 44, 136, "Input",ExpressionUUID->"210d8002-df8a-43b1-ace0-f450dc38b2cd"],
-Cell[9089, 212, 563, 10, 80, "CodeText",ExpressionUUID->"79c4a5e8-ece0-4a7f-9701-518c110e2138"],
-Cell[9655, 224, 1250, 32, 136, "Input",ExpressionUUID->"44555f66-ad87-42a8-a212-5e17a3272dfd"],
-Cell[10908, 258, 301, 7, 38, "CodeText",ExpressionUUID->"5af6c75d-bbf1-4cf8-aed5-e6a4bb9e9639"]
+Cell[2969, 69, 214, 4, 69, "Chapter",ExpressionUUID->"c93767f7-d34b-4e40-ab52-49c102e454cd"],
+Cell[3186, 75, 1293, 22, 269, "CodeText",ExpressionUUID->"f0a52dcb-3efc-4df4-bc51-3a0f43fc6bfa"],
+Cell[4482, 99, 362, 7, 59, "CodeText",ExpressionUUID->"378a9579-0103-4cab-900a-8784205c015b"],
+Cell[4847, 108, 765, 19, 178, "Input",ExpressionUUID->"f3196115-d699-4071-9e2d-b18a59008916"],
+Cell[5615, 129, 488, 9, 59, "CodeText",ExpressionUUID->"56737a88-823a-46ca-b106-7f2604dbe16e"],
+Cell[6106, 140, 854, 21, 178, "Input",ExpressionUUID->"95bef255-2cb8-46cc-b161-073a720d6ecf"],
+Cell[6963, 163, 823, 15, 143, "CodeText",ExpressionUUID->"4ebc675b-acac-4aa0-9aa1-eb0f2d761b59"],
+Cell[7789, 180, 1321, 32, 136, "Input",ExpressionUUID->"8da2147c-cb23-4493-b78f-149740ebb184"],
+Cell[9113, 214, 387, 8, 38, "CodeText",ExpressionUUID->"79c4a5e8-ece0-4a7f-9701-518c110e2138"],
+Cell[9503, 224, 1598, 36, 136, "Input",ExpressionUUID->"fff147b2-e058-42cb-9822-21503b04500c"],
+Cell[11104, 262, 654, 11, 101, "CodeText",ExpressionUUID->"5af6c75d-bbf1-4cf8-aed5-e6a4bb9e9639"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11246, 270, 410, 8, 117, "Chapter",ExpressionUUID->"8d7efa7d-a1e2-49a0-9011-96d47edd5c4c"],
-Cell[11659, 280, 366, 12, 185, "CodeText",ExpressionUUID->"71f5c923-d43e-4a8b-a054-8220f742c7ac"]
+Cell[11795, 278, 460, 8, 117, "Chapter",ExpressionUUID->"8d7efa7d-a1e2-49a0-9011-96d47edd5c4c"],
+Cell[12258, 288, 1531, 27, 353, "CodeText",ExpressionUUID->"71f5c923-d43e-4a8b-a054-8220f742c7ac"],
+Cell[13792, 317, 762, 14, 143, "CodeText",ExpressionUUID->"e93267f4-7051-4a02-92a6-d3ed61f0e078"],
+Cell[14557, 333, 650, 17, 52, "Input",ExpressionUUID->"407a7ce2-de77-498f-9298-86f1c406a3fc"],
+Cell[15210, 352, 2200, 38, 52, "Input",ExpressionUUID->"0fad2824-9dfe-4333-9a3c-5c82466cdaf2"],
+Cell[17413, 392, 1598, 36, 136, "Input",ExpressionUUID->"9bb52017-8077-447e-a782-e1318405fac9"],
+Cell[19014, 430, 749, 19, 52, "Input",ExpressionUUID->"834221c2-0d0f-46e9-9b83-7daa8492f4e1"],
+Cell[19766, 451, 853, 20, 52, "Input",ExpressionUUID->"e5e5e7c9-5a27-463d-950c-8b7ad50d4bae"],
+Cell[20622, 473, 345, 6, 30, "Input",ExpressionUUID->"c283d425-ee14-4101-8921-631a914ddd21"],
+Cell[20970, 481, 524, 10, 80, "CodeText",ExpressionUUID->"70ad3119-4e43-423d-a389-5e992fc18cb5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12062, 297, 424, 8, 117, "Chapter",ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-a06b8cb1103b"],
-Cell[12489, 307, 290, 10, 122, "CodeText",ExpressionUUID->"d3282397-56ef-45c7-bb85-c930cf606232"]
+Cell[21531, 496, 424, 8, 117, "Chapter",ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-a06b8cb1103b"],
+Cell[21958, 506, 290, 10, 122, "CodeText",ExpressionUUID->"d3282397-56ef-45c7-bb85-c930cf606232"]
 }, Open  ]],
-Cell[12794, 320, 157, 3, 69, "Chapter",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
-Cell[12954, 325, 158, 3, 58, "Chapter",ExpressionUUID->"302c1e18-9c38-4c6f-a763-b5ddaab9264d"],
-Cell[13115, 330, 155, 3, 58, "Chapter",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
-Cell[13273, 335, 160, 3, 58, "Chapter",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
-Cell[13436, 340, 163, 3, 58, "Chapter",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
+Cell[22263, 519, 157, 3, 69, "Chapter",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
+Cell[22423, 524, 158, 3, 58, "Chapter",ExpressionUUID->"302c1e18-9c38-4c6f-a763-b5ddaab9264d"],
+Cell[22584, 529, 155, 3, 58, "Chapter",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
+Cell[CellGroupData[{
+Cell[22764, 536, 160, 3, 58, "Chapter",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
+Cell[22927, 541, 429, 8, 80, "CodeText",ExpressionUUID->"5a448f17-0ce4-4628-9fd8-a770ebed02b2"]
+}, Open  ]],
+Cell[23371, 552, 163, 3, 69, "Chapter",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
 }, Open  ]]
 }
 ]

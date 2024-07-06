@@ -1,5 +1,7 @@
 #Code by Google AI Studio
 
+#No longer used for the project
+
 import os
 # import pathlib
 import textwrap
@@ -8,8 +10,7 @@ import textwrap
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
-# genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-genai.configure(api_key="AIzaSyAti-3Pcnrv-BznFk4T4ydt4Y8bKtk_WVs")
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # for m in genai.list_models():
 #   if 'generateContent' in m.supported_generation_methods:
