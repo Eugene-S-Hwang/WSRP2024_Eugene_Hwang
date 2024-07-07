@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[   1164690,      25940]
-NotebookOptionsPosition[   1161422,      25886]
-NotebookOutlinePosition[   1161817,      25902]
-CellTagsIndexPosition[   1161774,      25899]
+NotebookDataLength[   1164184,      25928]
+NotebookOptionsPosition[   1161112,      25876]
+NotebookOutlinePosition[   1161507,      25892]
+CellTagsIndexPosition[   1161464,      25889]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -451,8 +451,8 @@ Cell[BoxData[
   49.348821135600325`}}}, 
   DynamicModuleBox[{
    FunctionRepository`$b3fff3ced1644a93875d5378292c5170`start$$, 
-   FunctionRepository`$b3fff3ced1644a93875d5378292c5170`end$$ = \
-{-20.825998522290007`, -37.49547771858334}, 
+   FunctionRepository`$b3fff3ced1644a93875d5378292c5170`end$$ = {
+   94.10663923732176, -74.0169514775804}, 
    FunctionRepository`$b3fff3ced1644a93875d5378292c5170`image$$ = 
    Graphics[{{}, {{
        Annotation[{
@@ -25872,17 +25872,7 @@ massive landslide against Reagan. \
  CellChangeTimes->{{3.929289489812758*^9, 3.9292895452947598`*^9}, {
   3.929289600582108*^9, 3.929289754805635*^9}, {3.929289849196155*^9, 
   3.929290065483326*^9}},ExpressionUUID->"27517270-260f-4be6-811c-\
-4f8e2d9d3dcb"],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{3.929280701864287*^9, 
-  3.929286786386215*^9},ExpressionUUID->"59bc98dc-c5ce-4295-938f-\
-d7cd60bcf18f"],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.929289486100374*^9, 
-  3.929289486682229*^9}},ExpressionUUID->"f2dfaba7-32d9-47de-952f-\
-bb6289aab9e3"]
+4f8e2d9d3dcb"]
 },
 WindowSize->{808, 737},
 WindowMargins->{{4, Automatic}, {Automatic, 4}},
@@ -25928,20 +25918,18 @@ Cell[15651, 365, 644, 14, 30, "Input",ExpressionUUID->"e14f5276-3e6d-4fb6-810a-7
 Cell[16298, 381, 293, 6, 59, "CodeText",ExpressionUUID->"b5a6b9c4-d62d-4af5-8515-91760d5a2181"],
 Cell[CellGroupData[{
 Cell[16616, 391, 2837, 53, 115, "Input",ExpressionUUID->"748db97b-3ce5-48bf-ac91-7b136e5f5a95"],
-Cell[19456, 446, 514164, 11351, 448, "Output",ExpressionUUID->"18e16458-cb96-4ed5-b351-3132d21cca9e"]
+Cell[19456, 446, 514162, 11351, 448, "Output",ExpressionUUID->"18e16458-cb96-4ed5-b351-3132d21cca9e"]
 }, Open  ]],
-Cell[533635, 11800, 1510, 26, 311, "CodeText",ExpressionUUID->"1f32f69b-ab34-47e9-9cec-9f3d0e18e174"],
+Cell[533633, 11800, 1510, 26, 311, "CodeText",ExpressionUUID->"1f32f69b-ab34-47e9-9cec-9f3d0e18e174"],
 Cell[CellGroupData[{
-Cell[535170, 11830, 1635, 37, 136, "Input",ExpressionUUID->"941ea60e-9bc4-448e-a86f-639d7f069641"],
-Cell[536808, 11869, 311129, 6972, 447, "Output",ExpressionUUID->"3c161f48-b31e-41d2-9911-d3d3961a7e03"]
+Cell[535168, 11830, 1635, 37, 136, "Input",ExpressionUUID->"941ea60e-9bc4-448e-a86f-639d7f069641"],
+Cell[536806, 11869, 311129, 6972, 447, "Output",ExpressionUUID->"3c161f48-b31e-41d2-9911-d3d3961a7e03"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[847974, 18846, 1580, 36, 136, "Input",ExpressionUUID->"c0389690-1da2-48ea-8882-af32d589e38d"],
-Cell[849557, 18884, 310135, 6965, 447, "Output",ExpressionUUID->"2314ae28-9e07-4772-a899-68476b76e1db"]
+Cell[847972, 18846, 1580, 36, 136, "Input",ExpressionUUID->"c0389690-1da2-48ea-8882-af32d589e38d"],
+Cell[849555, 18884, 310135, 6965, 447, "Output",ExpressionUUID->"2314ae28-9e07-4772-a899-68476b76e1db"]
 }, Open  ]],
-Cell[1159707, 25852, 1403, 22, 269, "CodeText",ExpressionUUID->"27517270-260f-4be6-811c-4f8e2d9d3dcb"],
-Cell[1161113, 25876, 150, 3, 30, "Input",ExpressionUUID->"59bc98dc-c5ce-4295-938f-d7cd60bcf18f"],
-Cell[1161266, 25881, 152, 3, 30, "Input",ExpressionUUID->"f2dfaba7-32d9-47de-952f-bb6289aab9e3"]
+Cell[1159705, 25852, 1403, 22, 269, "CodeText",ExpressionUUID->"27517270-260f-4be6-811c-4f8e2d9d3dcb"]
 }
 ]
 *)
