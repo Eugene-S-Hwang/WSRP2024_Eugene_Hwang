@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[   1596483,      27018]
-NotebookOptionsPosition[   1582613,      26813]
-NotebookOutlinePosition[   1583092,      26831]
-CellTagsIndexPosition[   1583049,      26828]
+NotebookDataLength[   1596729,      27023]
+NotebookOptionsPosition[   1582859,      26818]
+NotebookOutlinePosition[   1583338,      26836]
+CellTagsIndexPosition[   1583295,      26833]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2419,7 +2419,7 @@ massive landslide against Reagan. \
   3.929290065483326*^9}},ExpressionUUID->"17164550-6fdd-4c39-a0de-\
 1f0698850241"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -26639,7 +26639,7 @@ d76d26d3a7bc"],
 Cell["", "Text",ExpressionUUID->"a66d9b89-5cb4-49ea-a5ec-0b6d844f260e"]
 }, Open  ]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -26717,6 +26717,10 @@ Britannica, 27 Aug. 2023, \
 https://www.britannica.com/topic/United-States-Presidential-Election-Results-\
 1788863. Accessed 10 July 2024.
 
+Crowdflower. \[OpenCurlyDoubleQuote]Political Social Media Posts.\
+\[CloseCurlyDoubleQuote] Kaggle, Kaggle, 20 Nov. 2016, \
+www.kaggle.com/datasets/crowdflower/political-social-media-posts/data. 
+
 Eldridge, Stephen. \[OpenCurlyDoubleQuote]political spectrum\
 \[CloseCurlyDoubleQuote]. Encyclopedia Britannica, 8 Jun. 2024, \
 https://www.britannica.com/topic/political-spectrum. Accessed 10 July 2024.
@@ -26774,9 +26778,10 @@ Documentation, Wolfram Research, 2020, \
 reference.wolfram.com/language/ref/method/DBSCAN.html. \
 \>", "CodeText",
  CellChangeTimes->{{3.929607911188992*^9, 3.92960801071288*^9}, {
-  3.929608218278501*^9, 3.929608220973231*^9}, {3.9296272941103907`*^9, 
-  3.929627299116282*^9}, {3.929627455102206*^9, 
-  3.929627478369615*^9}},ExpressionUUID->"daa85b99-9f10-4b2a-b266-\
+  3.929608218278501*^9, 3.929608220973231*^9}, {3.929627294110391*^9, 
+  3.929627299116282*^9}, {3.929627455102206*^9, 3.929627478369615*^9}, {
+  3.9297029401792927`*^9, 
+  3.929702941741325*^9}},ExpressionUUID->"daa85b99-9f10-4b2a-b266-\
 2e693f8caa6f"],
 
 Cell["", "CodeText",
@@ -26786,7 +26791,7 @@ Cell["", "CodeText",
   3.9296080160018578`*^9, 
   3.929608025112987*^9}},ExpressionUUID->"1002c3d8-63d7-4b85-acee-\
 940076da823e"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -26887,9 +26892,9 @@ Cell[101849, 1877, 31273, 517, 524, "Output",ExpressionUUID->"86a3de0b-2f22-4bd0
 }, Open  ]],
 Cell[133137, 2397, 1399, 22, 219, "Text",ExpressionUUID->"17164550-6fdd-4c39-a0de-1f0698850241"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[134585, 2425, 515, 9, 67, "Section",ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-a06b8cb1103b"],
+Cell[134585, 2425, 515, 9, 53, "Section",ExpressionUUID->"0a3faf4b-b1cf-4088-8fd1-a06b8cb1103b"],
 Cell[135103, 2436, 657, 13, 127, "Text",ExpressionUUID->"b4dbbaa7-c922-4b2b-a5f9-2415bc9ea68d"],
 Cell[CellGroupData[{
 Cell[135785, 2453, 260, 5, 54, "Subsection",ExpressionUUID->"ba10e5e5-05dc-4f21-b6fe-1cbf4fc8099e"],
@@ -27001,9 +27006,9 @@ Cell[1573360, 26617, 1271, 19, 150, "Text",ExpressionUUID->"7d1018b6-d7d8-45c5-9
 Cell[1574634, 26638, 71, 0, 35, "Text",ExpressionUUID->"a66d9b89-5cb4-49ea-a5ec-0b6d844f260e"]
 }, Open  ]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[1574766, 26645, 155, 3, 67, "Section",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
+Cell[1574766, 26645, 155, 3, 53, "Section",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
 Cell[1574924, 26650, 1228, 19, 173, "Text",ExpressionUUID->"72c9edfa-1387-445c-94ac-ac3bae8e0be3"]
 }, Closed]],
 Cell[CellGroupData[{
@@ -27012,14 +27017,14 @@ Cell[1576348, 26679, 987, 15, 150, "Text",ExpressionUUID->"df5ccb27-a4f4-4b6d-99
 }, Closed]],
 Cell[CellGroupData[{
 Cell[1577372, 26699, 155, 3, 53, "Section",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
-Cell[1577530, 26704, 3922, 75, 899, "CodeText",ExpressionUUID->"daa85b99-9f10-4b2a-b266-2e693f8caa6f"],
-Cell[1581455, 26781, 347, 6, 38, "CodeText",ExpressionUUID->"1002c3d8-63d7-4b85-acee-940076da823e"]
-}, Closed]],
+Cell[1577530, 26704, 4168, 80, 962, "CodeText",ExpressionUUID->"daa85b99-9f10-4b2a-b266-2e693f8caa6f"],
+Cell[1581701, 26786, 347, 6, 38, "CodeText",ExpressionUUID->"1002c3d8-63d7-4b85-acee-940076da823e"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[1581839, 26792, 160, 3, 53, "Section",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
-Cell[1582002, 26797, 429, 8, 59, "CodeText",ExpressionUUID->"5a448f17-0ce4-4628-9fd8-a770ebed02b2"]
+Cell[1582085, 26797, 160, 3, 67, "Section",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
+Cell[1582248, 26802, 429, 8, 59, "CodeText",ExpressionUUID->"5a448f17-0ce4-4628-9fd8-a770ebed02b2"]
 }, Closed]],
-Cell[1582446, 26808, 163, 3, 53, "Section",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
+Cell[1582692, 26813, 163, 3, 53, "Section",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
 }
 ]
 *)
