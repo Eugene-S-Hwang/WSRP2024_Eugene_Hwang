@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[   1596695,      27026]
+NotebookDataLength[   1596778,      27028]
 NotebookOptionsPosition[   1582780,      26820]
-NotebookOutlinePosition[   1583176,      26836]
-CellTagsIndexPosition[   1583133,      26833]
+NotebookOutlinePosition[   1583259,      26838]
+CellTagsIndexPosition[   1583216,      26835]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26675,7 +26675,7 @@ health, military, and the economy.\
   3.929695771595454*^9, 
   3.929695910396779*^9}},ExpressionUUID->"72c9edfa-1387-445c-94ac-\
 ac3bae8e0be3"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -26700,7 +26700,7 @@ political issues, such as gun rights, using classification. \
  CellChangeTimes->{{3.929634419720999*^9, 
   3.929634610551467*^9}},ExpressionUUID->"df5ccb27-a4f4-4b6d-9919-\
 0c577b7bf4b6"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -26811,7 +26811,7 @@ willingness to guide me through my first ever research project. \
  CellChangeTimes->{{3.929282651676783*^9, 
   3.929282763992749*^9}},ExpressionUUID->"5a448f17-0ce4-4628-9fd8-\
 a770ebed02b2"]
-}, Open  ]],
+}, Closed]],
 
 Cell["Cite this Notebook", "Section",
  CellChangeTimes->{{3.928920294217026*^9, 
@@ -26820,6 +26820,8 @@ Cell["Cite this Notebook", "Section",
 },
 WindowSize->{1037, 836},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+PrivateNotebookOptions->{"CloudPublishPath"->"/Published/political_parties.\
+nb"},
 FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 16, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"b822b52d-0b92-4fed-82bf-0b5982689b0e"
@@ -27013,21 +27015,21 @@ Cell[1574801, 26645, 71, 0, 35, "Text",ExpressionUUID->"a66d9b89-5cb4-49ea-a5ec-
 Cell[CellGroupData[{
 Cell[1574933, 26652, 155, 3, 67, "Section",ExpressionUUID->"fe7841c3-3d03-457a-aa9f-97d33b2a8a05"],
 Cell[1575091, 26657, 1228, 19, 173, "Text",ExpressionUUID->"72c9edfa-1387-445c-94ac-ac3bae8e0be3"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[1576356, 26681, 156, 3, 67, "Section",ExpressionUUID->"302c1e18-9c38-4c6f-a763-b5ddaab9264d"],
+Cell[1576356, 26681, 156, 3, 53, "Section",ExpressionUUID->"302c1e18-9c38-4c6f-a763-b5ddaab9264d"],
 Cell[1576515, 26686, 987, 15, 150, "Text",ExpressionUUID->"df5ccb27-a4f4-4b6d-9919-0c577b7bf4b6"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[1577539, 26706, 155, 3, 67, "Section",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
+Cell[1577539, 26706, 155, 3, 53, "Section",ExpressionUUID->"d1ad8458-0e0e-4708-be6d-65ceb0151c75"],
 Cell[1577697, 26711, 3922, 75, 899, "CodeText",ExpressionUUID->"daa85b99-9f10-4b2a-b266-2e693f8caa6f"],
 Cell[1581622, 26788, 347, 6, 38, "CodeText",ExpressionUUID->"1002c3d8-63d7-4b85-acee-940076da823e"]
 }, Closed]],
 Cell[CellGroupData[{
 Cell[1582006, 26799, 160, 3, 53, "Section",ExpressionUUID->"801c5b97-6402-4faa-8458-e58915586fa8"],
 Cell[1582169, 26804, 429, 8, 59, "CodeText",ExpressionUUID->"5a448f17-0ce4-4628-9fd8-a770ebed02b2"]
-}, Open  ]],
-Cell[1582613, 26815, 163, 3, 67, "Section",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
+}, Closed]],
+Cell[1582613, 26815, 163, 3, 53, "Section",ExpressionUUID->"baf9c512-9bde-4ede-aeca-38fcc92064e5"]
 }
 ]
 *)
