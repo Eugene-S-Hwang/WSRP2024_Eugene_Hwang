@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    226068,       3864]
-NotebookOptionsPosition[    222950,       3798]
-NotebookOutlinePosition[    224351,       3836]
-CellTagsIndexPosition[    224271,       3831]
+NotebookDataLength[    226107,       3864]
+NotebookOptionsPosition[    222991,       3798]
+NotebookOutlinePosition[    224391,       3836]
+CellTagsIndexPosition[    224311,       3831]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1229,7 +1229,7 @@ Cell[TextData[{
 
 Cell[TextData[{
  "Graph shows the two parties have ",
- StyleBox["increasingly diverged away",
+ StyleBox["increasingly diverged",
   FontWeight->"Bold"],
  " from each other"
 }], "Item",
@@ -1237,8 +1237,8 @@ Cell[TextData[{
    3.925997768172614*^9, {3.9297174188331203`*^9, 3.929717450245751*^9}, {
    3.9297176348148327`*^9, 3.929717649618069*^9}, {3.929717709588739*^9, 
    3.929717711631656*^9}, {3.929717855040456*^9, 3.929717855041705*^9}, {
-   3.929779841336854*^9, 
-   3.929779850747754*^9}},ExpressionUUID->"5060b4c9-495e-4088-b46b-\
+   3.929779841336854*^9, 3.929779850747754*^9}, {3.929784080009986*^9, 
+   3.929784081002297*^9}},ExpressionUUID->"5060b4c9-495e-4088-b46b-\
 b1429374b221"],
 
 Cell[TextData[{
@@ -3822,7 +3822,7 @@ ExpressionUUID->"2922f19a-31b6-4250-a9bd-f93006415a6a"
 (*CellTagsOutline
 CellTagsIndex->{
  "SlideShowHeader"->{
-  Cell[580, 22, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d29a0740-5475-4799-8db9-0b929825373f",
+  Cell[580, 22, 136, 2, 0, "SlideShowNavigationBar",ExpressionUUID->"d29a0740-5475-4799-8db9-0b929825373f",
    CellTags->"SlideShowHeader"],
   Cell[69091, 1205, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"11322f0b-1a2b-4d1a-9c3b-a936fae9cb41",
    CellTags->"SlideShowHeader"]}
@@ -3830,16 +3830,16 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 223959, 3823}
+ {"SlideShowHeader", 224000, 3823}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d29a0740-5475-4799-8db9-0b929825373f",
+Cell[580, 22, 136, 2, 0, "SlideShowNavigationBar",ExpressionUUID->"d29a0740-5475-4799-8db9-0b929825373f",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[741, 28, 67364, 1148, 274, "Chapter",ExpressionUUID->"b4d714f5-f518-4490-b9e7-0c2bb85bc40b",
+Cell[741, 28, 67364, 1148, 256, "Chapter",ExpressionUUID->"b4d714f5-f518-4490-b9e7-0c2bb85bc40b",
  PageBreakAbove->True],
 Cell[CellGroupData[{
 Cell[68130, 1180, 212, 4, 54, "Subsection",ExpressionUUID->"286079cd-aa2e-4fd4-8e38-4b934e1065b0"],
@@ -3853,17 +3853,17 @@ Cell[69091, 1205, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"11322f0b
 Cell[CellGroupData[{
 Cell[69252, 1211, 215, 4, 54, "Subsection",ExpressionUUID->"e5f96f83-d6ed-4bd5-b476-fe46efa2b981"],
 Cell[69470, 1217, 431, 10, 32, "Item",ExpressionUUID->"3cfaadac-f4d2-4fb3-99ce-76cf62798158"],
-Cell[69904, 1229, 547, 12, 32, "Item",ExpressionUUID->"5060b4c9-495e-4088-b46b-b1429374b221"],
-Cell[70454, 1243, 930, 25, 32, "Item",ExpressionUUID->"fb191cc9-ba15-4da2-a9f7-e2a48e610f66"],
-Cell[71387, 1270, 651, 17, 53, "Item",ExpressionUUID->"944ee3fb-9aa0-4995-8255-f437cfc627f1"],
-Cell[72041, 1289, 142, 3, 35, "Text",ExpressionUUID->"be317000-b91a-4acf-80d0-49c8a5b40176"],
-Cell[72186, 1294, 148805, 2458, 269, "Text",ExpressionUUID->"4c044920-8eac-4c69-b702-728ea0a75c3f"]
+Cell[69904, 1229, 588, 12, 32, "Item",ExpressionUUID->"5060b4c9-495e-4088-b46b-b1429374b221"],
+Cell[70495, 1243, 930, 25, 32, "Item",ExpressionUUID->"fb191cc9-ba15-4da2-a9f7-e2a48e610f66"],
+Cell[71428, 1270, 651, 17, 53, "Item",ExpressionUUID->"944ee3fb-9aa0-4995-8255-f437cfc627f1"],
+Cell[72082, 1289, 142, 3, 35, "Text",ExpressionUUID->"be317000-b91a-4acf-80d0-49c8a5b40176"],
+Cell[72227, 1294, 148805, 2458, 269, "Text",ExpressionUUID->"4c044920-8eac-4c69-b702-728ea0a75c3f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[221028, 3757, 208, 4, 54, "Subsection",ExpressionUUID->"118a58ab-26c5-4b28-ada9-bd54210e9ac2"],
-Cell[221239, 3763, 570, 10, 32, "Item",ExpressionUUID->"17e7aae3-e043-4aeb-9a3f-c2615c9b546b"],
-Cell[221812, 3775, 521, 7, 32, "Item",ExpressionUUID->"f89e437f-e71a-41de-aa77-616a343899a3"],
-Cell[222336, 3784, 586, 10, 32, "Item",ExpressionUUID->"d7ce7f1c-dd24-4bc7-af98-64e3011b48cb"]
+Cell[221069, 3757, 208, 4, 54, "Subsection",ExpressionUUID->"118a58ab-26c5-4b28-ada9-bd54210e9ac2"],
+Cell[221280, 3763, 570, 10, 49, "Item",ExpressionUUID->"17e7aae3-e043-4aeb-9a3f-c2615c9b546b"],
+Cell[221853, 3775, 521, 7, 49, "Item",ExpressionUUID->"f89e437f-e71a-41de-aa77-616a343899a3"],
+Cell[222377, 3784, 586, 10, 49, "Item",ExpressionUUID->"d7ce7f1c-dd24-4bc7-af98-64e3011b48cb"]
 }, Open  ]]
 }, Open  ]]
 }
