@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    223468,       3804]
-NotebookOptionsPosition[    220544,       3740]
-NotebookOutlinePosition[    221945,       3778]
-CellTagsIndexPosition[    221865,       3773]
+NotebookDataLength[    226068,       3864]
+NotebookOptionsPosition[    222950,       3798]
+NotebookOutlinePosition[    224351,       3836]
+CellTagsIndexPosition[    224271,       3831]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -570,21 +570,18 @@ AMAd+z8hywFl
                 StyleBox["\[IndentingNewLine]",
                  FontSize->32], 
                 StyleBox[
-                 RowBox[{
-                  StyleBox[
+                 StyleBox[
+                  RowBox[{
                    RowBox[{
-                    StyleBox["E", "Author",
-                    FontFamily->"Source Sans Pro",
+                    StyleBox["E",
                     FontSize->32], 
-                    StyleBox["ugene", "Author",
-                    FontFamily->"Source Sans Pro",
-                    FontSize->36]}]], 
-                  StyleBox[" ", "Author",
-                   FontFamily->"Source Sans Pro",
-                   FontSize->36], 
-                  StyleBox["Hwang", "Author",
-                   FontFamily->"Source Sans Pro",
-                   FontSize->36]}],
+                    StyleBox["ugene",
+                    FontSize->36]}], 
+                   StyleBox[" ",
+                    FontSize->36], 
+                   StyleBox["Hwang",
+                    FontSize->36]}], "Author",
+                  FontFamily->"Source Sans Pro"],
                  FontSize->72]}], "Author",
                FontFamily->"Source Sans Pro"]},
              {
@@ -595,17 +592,34 @@ AMAd+z8hywFl
              {
               TemplateBox[{
                 StyleBox[
-                 RowBox[{"              ", 
-                   RowBox[{
-                    
+                 TemplateBox[{
+                   RowBox[{"             ", 
+                    StyleBox[
                     RowBox[{
-                    "Analyzing", " ", "Changes", " ", "in", " ", "Ideology", 
-                    " ", "of", " ", "the"}], " ", "\[IndentingNewLine]", 
-                    
+                    RowBox[{"Analyzing", " ", "Changes", " ", 
+                    StyleBox["in", "Author", FontSize -> 20], " ", 
+                    StyleBox["the", "Author", FontSize -> 20], " ", 
+                    StyleBox["Ideology", "Author", FontSize -> 20], " ", 
+                    StyleBox["of", "Author", FontSize -> 20], " ", 
+                    StyleBox["the", "Author", FontSize -> 20]}], 
+                    StyleBox[" ", "Author", FontSize -> 20], 
+                    "\[IndentingNewLine]", 
                     RowBox[{
-                    "Democratic", " ", "and", " ", "Republican", " ", "Party",
-                     " ", "from", " ", "1900", " ", "to", " ", "2020"}]}]}], 
-                 FontSize -> 16], {
+                    StyleBox["Democratic", "Author", FontSize -> 20], " ", 
+                    StyleBox["and", "Author", FontSize -> 20], " ", 
+                    StyleBox["Republican", "Author", FontSize -> 20], " ", 
+                    StyleBox["Party", "Author", FontSize -> 20], " ", 
+                    StyleBox["from", "Author", FontSize -> 20], " ", 
+                    StyleBox["1900", "Author", FontSize -> 20], " ", 
+                    StyleBox["to", "Author", FontSize -> 20], " ", 
+                    StyleBox["2020", "Author", FontSize -> 20]}]}], "Author", 
+                    FontSize -> 20]}], {
+                    URL["https://community.wolfram.com/groups/-/m/t/3213886"],
+                     None}, 
+                   "https://community.wolfram.com/groups/-/m/t/3213886", 
+                   "HyperlinkActionRecycled", {"HyperlinkActive"}, 
+                   BaseStyle -> {"Hyperlink"}, HyperlinkAction -> "Recycled"},
+                   "HyperlinkTemplate"], FontSize -> 16], {
                  URL[
                  "https://community.wolfram.com/groups/-/m/t/3213886?p_p_auth=\
 gYiFX522"], None}, "ButtonData", "HyperlinkActionRecycled", {
@@ -1156,7 +1170,8 @@ brf3HgIAAAAAAAAAAAAAAAAAAAAAAAAAwMn+D9b8msg=
    3.92667200972622*^9}, {3.9297126593880787`*^9, 3.9297126663597317`*^9}, {
    3.929712890665379*^9, 3.92971289351166*^9}, {3.929712929640279*^9, 
    3.929712937837006*^9}, 3.9297152029218884`*^9, {3.929715399849502*^9, 
-   3.929715456063081*^9}, {3.929716071754467*^9, 3.9297160822755404`*^9}},
+   3.929715456063081*^9}, {3.929716071754467*^9, 3.9297160822755404`*^9}, 
+   3.929778713819131*^9, {3.929778877800644*^9, 3.929779054250684*^9}},
  TextAlignment->Center,
  Background->RGBColor[
   0.9, 0.9, 0.9],ExpressionUUID->"b4d714f5-f518-4490-b9e7-0c2bb85bc40b"],
@@ -1200,49 +1215,76 @@ Cell["Methods and Results", "Subsection",
   3.92599736085177*^9}},ExpressionUUID->"e5f96f83-d6ed-4bd5-b476-\
 fe46efa2b981"],
 
-Cell["\<\
-I used PCA on the vector embeddings of the party platforms and plotted them \
-on a graph. \
-\>", "Item",
+Cell[TextData[{
+ "Part 1: ",
+ StyleBox["PCA",
+  FontWeight->"Bold"],
+ " on the vector embeddings of the party platforms"
+}], "Item",
  CellChangeTimes->{{3.925997364691617*^9, 3.9259974139557333`*^9}, 
    3.926515221149477*^9, {3.929716766409484*^9, 3.929716786152917*^9}, {
-   3.929717377193426*^9, 
-   3.929717396834529*^9}},ExpressionUUID->"3cfaadac-f4d2-4fb3-99ce-\
+   3.929717377193426*^9, 3.929717396834529*^9}, {3.929779832024214*^9, 
+   3.9297798359959717`*^9}},ExpressionUUID->"3cfaadac-f4d2-4fb3-99ce-\
 76cf62798158"],
 
-Cell["\<\
-According to the graph, in recent years, the two parties have increasingly \
-diverged away from each other. \
-\>", "Item",
+Cell[TextData[{
+ "Graph shows the two parties have ",
+ StyleBox["increasingly diverged away",
+  FontWeight->"Bold"],
+ " from each other"
+}], "Item",
  CellChangeTimes->{{3.925997417390064*^9, 3.925997437435026*^9}, 
    3.925997768172614*^9, {3.9297174188331203`*^9, 3.929717450245751*^9}, {
-   3.9297176348148327`*^9, 3.9297176496180696`*^9}, {3.929717709588739*^9, 
-   3.9297177116316557`*^9}, {3.929717855040456*^9, 
-   3.929717855041705*^9}},ExpressionUUID->"5060b4c9-495e-4088-b46b-\
+   3.9297176348148327`*^9, 3.929717649618069*^9}, {3.929717709588739*^9, 
+   3.929717711631656*^9}, {3.929717855040456*^9, 3.929717855041705*^9}, {
+   3.929779841336854*^9, 
+   3.929779850747754*^9}},ExpressionUUID->"5060b4c9-495e-4088-b46b-\
 b1429374b221"],
 
-Cell["\<\
-Then I used word counts of opposing candidate in the party platform, \
-classification of partisan sentences, and UMAP dimension reduction of vector \
-embeddings of party platforms and clustering using DBSCAN to find defining \
-topics for each cluster using TF-IDF \
-\>", "Item",
+Cell[TextData[{
+ "Part 2: ",
+ StyleBox["Word counts",
+  FontWeight->"Bold"],
+ " of opposing candidate in the party platform; ",
+ StyleBox["classification",
+  FontWeight->"Bold"],
+ " of partisan sentences; ",
+ StyleBox["UMAP",
+  FontWeight->"Bold"],
+ " dimension reduction, ",
+ StyleBox["clustering using DBSCAN",
+  FontWeight->"Bold"],
+ ", find defining topics for each cluster by finding ",
+ StyleBox["TF-IDF",
+  FontWeight->"Bold"],
+ " scores."
+}], "Item",
  CellChangeTimes->{{3.925997417390064*^9, 3.925997437435026*^9}, 
    3.925997768172614*^9, {3.9297174188331203`*^9, 3.929717450245751*^9}, {
-   3.9297176348148327`*^9, 3.9297176496180696`*^9}, {3.929717709588739*^9, 
-   3.9297177116316557`*^9}, {3.929717861890432*^9, 
-   3.929717905754722*^9}},ExpressionUUID->"fb191cc9-ba15-4da2-a9f7-\
+   3.9297176348148327`*^9, 3.929717649618069*^9}, {3.929717709588739*^9, 
+   3.929717711631656*^9}, {3.929717861890432*^9, 3.929717905754722*^9}, 
+   3.92977916048216*^9, {3.9297793858552237`*^9, 3.929779390364367*^9}, {
+   3.929779854035027*^9, 
+   3.929779896528276*^9}},ExpressionUUID->"fb191cc9-ba15-4da2-a9f7-\
 e2a48e610f66"],
 
-Cell["\<\
-There is a general increase in negative campaigning, a constant amount of \
-partisanship, and shifts in topics between different time periods, reflecting \
-historical and social events (economic issues, Soviet Union, technological \
-advances, COVID-19 Pandemic)\
-\>", "Item",
+Cell[TextData[{
+ "General ",
+ StyleBox["increase in negative campaigning",
+  FontWeight->"Bold"],
+ ", a constant amount of ",
+ StyleBox["partisanship",
+  FontWeight->"Bold"],
+ ", and ",
+ StyleBox["shifts in topics",
+  FontWeight->"Bold"],
+ " between different time periods, reflecting historical and social events \
+(economic issues, Soviet Union, technological advances, COVID-19 Pandemic)"
+}], "Item",
  CellChangeTimes->{{3.925997417390064*^9, 3.925997433372867*^9}, {
-  3.925997819148036*^9, 3.92599795272048*^9}, {3.929717856800007*^9, 
-  3.929717858059473*^9}},ExpressionUUID->"944ee3fb-9aa0-4995-8255-\
+   3.925997819148036*^9, 3.92599795272048*^9}, {3.929717856800007*^9, 
+   3.929717858059473*^9}, 
+   3.929779906960268*^9},ExpressionUUID->"944ee3fb-9aa0-4995-8255-\
 f437cfc627f1"],
 
 Cell["", "Text",
@@ -3707,7 +3749,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICj5/8DNjePLA==
 }], "Text",
  CellChangeTimes->{{3.926597333235732*^9, 3.926597386769746*^9}, {
   3.929714992299633*^9, 3.929715025280908*^9}, {3.929716099561595*^9, 
-  3.9297161144748917`*^9}},ExpressionUUID->"4c044920-8eac-4c69-b702-\
+  3.929716114474891*^9}},ExpressionUUID->"4c044920-8eac-4c69-b702-\
 728ea0a75c3f"]
 }, Open  ]],
 
@@ -3720,21 +3762,37 @@ Cell["Future Work", "Subsection",
 bd54210e9ac2"],
 
 Cell["\<\
-I would like to accomplish is classifying the party platforms to different \
-political typology groups. Pew Research outlined nine different typology \
-groups and I would like to find a way to classify the party platforms to one \
-of these groups. Another major aspect that I would like to add to my work is \
-the classification of the degree of liberalism and conservatism in each of \
-the party platforms and modelling how that changes as time changes. Finally, \
-I would also like to model the change in each of the party\[CloseCurlyQuote]s \
-stances on specific political issues, such as gun rights, using \
-classification. \
-\>", "Text",
+Classifying the party platforms into different political typology groups \
+outlined by Pew Research\
+\>", "Item",
  CellChangeTimes->{{3.925997035196965*^9, 3.925997104901869*^9}, {
    3.925997455844125*^9, 3.925997555745347*^9}, {3.925997978772829*^9, 
-   3.925997979648261*^9}, 
-   3.929715999897595*^9},ExpressionUUID->"17e7aae3-e043-4aeb-9a3f-\
-c2615c9b546b"]
+   3.925997979648261*^9}, 3.929715999897595*^9, {3.9297791847159157`*^9, 
+   3.9297791899152117`*^9}, {3.929779276970408*^9, 3.9297793479314547`*^9}, {
+   3.92977992766078*^9, 3.9297799296672792`*^9}, {3.92977997430438*^9, 
+   3.929779983700845*^9}},ExpressionUUID->"17e7aae3-e043-4aeb-9a3f-\
+c2615c9b546b"],
+
+Cell["Analyzing changes in degree of liberalism and conservatism", "Item",
+ CellChangeTimes->{{3.925997035196965*^9, 3.925997104901869*^9}, {
+   3.925997455844125*^9, 3.925997555745347*^9}, {3.925997978772829*^9, 
+   3.925997979648261*^9}, 3.929715999897595*^9, {3.9297791847159157`*^9, 
+   3.9297791899152117`*^9}, {3.929779276970408*^9, 3.9297793479314547`*^9}, {
+   3.92977992766078*^9, 3.9297799296672792`*^9}, {3.92977997430438*^9, 
+   3.929780016400846*^9}},ExpressionUUID->"f89e437f-e71a-41de-aa77-\
+616a343899a3"],
+
+Cell["\<\
+Model the change in each of the party\[CloseCurlyQuote]s stances on specific \
+political issues (ex: gun control)\
+\>", "Item",
+ CellChangeTimes->{{3.925997035196965*^9, 3.925997104901869*^9}, {
+   3.925997455844125*^9, 3.925997555745347*^9}, {3.925997978772829*^9, 
+   3.925997979648261*^9}, 3.929715999897595*^9, {3.9297791847159157`*^9, 
+   3.9297791899152117`*^9}, {3.929779276970408*^9, 3.9297793479314547`*^9}, {
+   3.92977992766078*^9, 3.9297799296672792`*^9}, {3.92977997430438*^9, 
+   3.9297800237112303`*^9}},ExpressionUUID->"d7ce7f1c-dd24-4bc7-af98-\
+64e3011b48cb"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -3766,13 +3824,13 @@ CellTagsIndex->{
  "SlideShowHeader"->{
   Cell[580, 22, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d29a0740-5475-4799-8db9-0b929825373f",
    CellTags->"SlideShowHeader"],
-  Cell[68028, 1190, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"11322f0b-1a2b-4d1a-9c3b-a936fae9cb41",
+  Cell[69091, 1205, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"11322f0b-1a2b-4d1a-9c3b-a936fae9cb41",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 221553, 3765}
+ {"SlideShowHeader", 223959, 3823}
  }
 *)
 (*NotebookFileOutline
@@ -3781,29 +3839,31 @@ Cell[CellGroupData[{
 Cell[580, 22, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d29a0740-5475-4799-8db9-0b929825373f",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[741, 28, 66301, 1133, 374, "Chapter",ExpressionUUID->"b4d714f5-f518-4490-b9e7-0c2bb85bc40b",
+Cell[741, 28, 67364, 1148, 274, "Chapter",ExpressionUUID->"b4d714f5-f518-4490-b9e7-0c2bb85bc40b",
  PageBreakAbove->True],
 Cell[CellGroupData[{
-Cell[67067, 1165, 212, 4, 54, "Subsection",ExpressionUUID->"286079cd-aa2e-4fd4-8e38-4b934e1065b0"],
-Cell[67282, 1171, 685, 12, 58, "Text",ExpressionUUID->"889f3086-8685-4944-9dd1-ce39951accec"]
+Cell[68130, 1180, 212, 4, 54, "Subsection",ExpressionUUID->"286079cd-aa2e-4fd4-8e38-4b934e1065b0"],
+Cell[68345, 1186, 685, 12, 58, "Text",ExpressionUUID->"889f3086-8685-4944-9dd1-ce39951accec"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[68028, 1190, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"11322f0b-1a2b-4d1a-9c3b-a936fae9cb41",
+Cell[69091, 1205, 136, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"11322f0b-1a2b-4d1a-9c3b-a936fae9cb41",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[68189, 1196, 215, 4, 54, "Subsection",ExpressionUUID->"e5f96f83-d6ed-4bd5-b476-fe46efa2b981"],
-Cell[68407, 1202, 365, 8, 32, "Item",ExpressionUUID->"3cfaadac-f4d2-4fb3-99ce-76cf62798158"],
-Cell[68775, 1212, 485, 9, 32, "Item",ExpressionUUID->"5060b4c9-495e-4088-b46b-b1429374b221"],
-Cell[69263, 1223, 641, 11, 53, "Item",ExpressionUUID->"fb191cc9-ba15-4da2-a9f7-e2a48e610f66"],
-Cell[69907, 1236, 505, 9, 53, "Item",ExpressionUUID->"944ee3fb-9aa0-4995-8255-f437cfc627f1"],
-Cell[70415, 1247, 142, 3, 35, "Text",ExpressionUUID->"be317000-b91a-4acf-80d0-49c8a5b40176"],
-Cell[70560, 1252, 148807, 2458, 269, "Text",ExpressionUUID->"4c044920-8eac-4c69-b702-728ea0a75c3f"]
+Cell[69252, 1211, 215, 4, 54, "Subsection",ExpressionUUID->"e5f96f83-d6ed-4bd5-b476-fe46efa2b981"],
+Cell[69470, 1217, 431, 10, 32, "Item",ExpressionUUID->"3cfaadac-f4d2-4fb3-99ce-76cf62798158"],
+Cell[69904, 1229, 547, 12, 32, "Item",ExpressionUUID->"5060b4c9-495e-4088-b46b-b1429374b221"],
+Cell[70454, 1243, 930, 25, 32, "Item",ExpressionUUID->"fb191cc9-ba15-4da2-a9f7-e2a48e610f66"],
+Cell[71387, 1270, 651, 17, 53, "Item",ExpressionUUID->"944ee3fb-9aa0-4995-8255-f437cfc627f1"],
+Cell[72041, 1289, 142, 3, 35, "Text",ExpressionUUID->"be317000-b91a-4acf-80d0-49c8a5b40176"],
+Cell[72186, 1294, 148805, 2458, 269, "Text",ExpressionUUID->"4c044920-8eac-4c69-b702-728ea0a75c3f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[219404, 3715, 208, 4, 54, "Subsection",ExpressionUUID->"118a58ab-26c5-4b28-ada9-bd54210e9ac2"],
-Cell[219615, 3721, 901, 15, 81, "Text",ExpressionUUID->"17e7aae3-e043-4aeb-9a3f-c2615c9b546b"]
+Cell[221028, 3757, 208, 4, 54, "Subsection",ExpressionUUID->"118a58ab-26c5-4b28-ada9-bd54210e9ac2"],
+Cell[221239, 3763, 570, 10, 32, "Item",ExpressionUUID->"17e7aae3-e043-4aeb-9a3f-c2615c9b546b"],
+Cell[221812, 3775, 521, 7, 32, "Item",ExpressionUUID->"f89e437f-e71a-41de-aa77-616a343899a3"],
+Cell[222336, 3784, 586, 10, 32, "Item",ExpressionUUID->"d7ce7f1c-dd24-4bc7-af98-64e3011b48cb"]
 }, Open  ]]
 }, Open  ]]
 }
